@@ -1,8 +1,16 @@
 using Microsoft.SemanticKernel;
 using AiPlayground1.Components;
 using Microsoft.SemanticKernel.ChatCompletion;
+using Microsoft.SemanticKernel.Connectors.Postgres;
+using Microsoft.Extensions.DependencyInjection;
+using Npgsql;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("PostgresConnection");
+builder.Services.AddPostgresVectorStore(connectionString);
+
+// get postgres connection string from configuration
+
 
 builder.AddServiceDefaults();
 
@@ -32,7 +40,7 @@ app.UseHttpsRedirection();
 app.UseAntiforgery();
 
 app.MapStaticAssets();
-app.MapRazorComponents<App>()
+app.MapRazorComponents<AiPlayground1.Components.App>()
     .AddInteractiveServerRenderMode();
 
 app.Run();
