@@ -1,11 +1,11 @@
 ﻿using Microsoft.Extensions.VectorData;
 
-namespace App.Core
+namespace AppInfra
 {
     public class ContentItemFragment
     {
         [VectorStoreRecordKey]
-        public Guid ContentItemFragmentId { get; set; }
+        public Guid Id { get; set; }
 
         [VectorStoreRecordData(StoragePropertyName = "content_item_id")]
         public Guid ContentItemId { get; set; }

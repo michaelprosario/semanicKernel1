@@ -1,0 +1,189 @@
+Hi.
+This is me.
+My name is Hamid Shojaee, and I've been involved with a number of software development projects
+over the years,
+at a number of different companies, and I've come to recognize 'Scrum,'
+as one of the best agile development practices in use today.
+In this fast-paced video,
+I want to show you why Scrum is so great, and how you can get started with Scrum in
+under 10 minutes.
+I'll cover all the core Scrum concepts,
+like product backlogs, team roles, sprints, burndown charts, and more.
+So get ready to be bombarded with information.
+Product Backlog
+Lets say THIS is the product we want to build.
+For this product, we get all kinds of feature requests from customers, executives, or even
+other team members.
+In Scrum, features are written from the perspective of the end-user,
+therefore, features are known as user-stories.
+The collection of all these user-stories is called the product backlog.
+Another way to think of the product backlog
+is to think of it as a wish list of all the things that would make this product great.
+Once we have our wish list or the product backlog,
+we need to start planning which specific user-stories
+we're going to put into a particular release of our product.
+But we're getting ahead of ourselves.
+Let's back up a bit.
+To build this product,
+we need to have one or more people in our team who are going to play a variety of roles.
+First, we need her.
+She plays the role of product owner,
+and helps make sure the right features make it into the product backlog
+representing the users and customers of the product.
+She helps set the direction of the product.
+Then, we need this guy.
+He is the Scrum Master and his job is to make sure the project is progressing smoothly
+and that every member of the team has the tools they need to get their job done.
+He sets up meetings, monitors the work being done and facilitates release planning.
+He's a lot like a project manager, but that's such a boring title.
+So, we'll call him a Scrum Master [Karate yell] to imply he knows some Jui-Jitsu.
+And the rest of the team has similar roles to other development processes.
+These guys build the product,
+while these guys test it to make sure it works right.
+These guys use it, and hopefully pay for it.
+And these guys, they generally get in the way, but it turns out you can't build many
+products without them.
+Planning
+But lets get back to this: Release Planning.
+To plan a release, the team starts with this, the product backlog,
+and they identify the user-stories they want to put into this release.
+These user-stories then become part of the release backlog.
+The team then prioritizes the user-stories and estimates the amount of work involved
+for each item.
+Sometimes larger user-stories are broken down into smaller more manageable chunks.
+The collection of all the estimates provides a rough idea
+of the total amount of work involved to complete the entire release.
+A quick side note about estimates.
+There are a lot of techniques for creating good estimates.
+Some prefer estimating in story points where estimates are made
+relative to building a small component with a known level of difficulty.
+Unfortunately, story points don’t answer the question of,
+“When will my project ship?”
+I have found that the best technique is to estimate work in hours,
+but to use some standards in how estimates are done.
+For example, things that take less than a day to complete
+will be estimated as 1 hour, 2 hours, 4 hours or 8 hours.
+Every item will fall into one of those buckets.
+There will be no 3 hour estimates, for example.
+A 3 hour item would fall into the 4 hour bucket.
+Larger items will be estimated as 2 days, 3 days, 5 days, or 10 days.
+Again, all estimates in between will fall into the next larger bucket.
+Extremely large items are similarly estimated in months: 1, 2, 3 or 6 Months,
+but the reality is that such items will need to be broken down substantially
+before work actually begins.
+We’ll come back to these estimates in just a minute.
+But for now, lets go back to this:
+The Release Backlog.
+With a prioritized set of user-stories and the estimated amount of work at hand,
+we are now ready to plan out several sprints to get the work done.
+Sprints are short-duration milestones that allow teams to tackle a manageable chunk of
+the project
+and get it to a ship-ready state.
+Sprints generally range from a couple of days to as much as 30 days in length,
+depending on the product's release cycles.
+The shorter the release cycles, the shorter each sprint should be.
+And you'll want to have at least 2 to as many as a dozen sprints in a given release.
+So, at this point, we can take our release backlog and split it up into several of these:
+Sprint Backlogs.
+One of the most important things to remember about sprints
+is that the goal of each sprint is to get a subset of the release backlog to a ship-ready
+state.
+So, at the end of each sprint, you should have a fully tested product with all the features
+of that sprint 100% complete.
+Since sprints are a very short, but a realistic representation of part of the product,
+a late finish of the sprint is a great indicator that the project is not on schedule and something
+needs to be done.
+Therefore, it's extremely important to monitor the progress of each sprint with THIS:
+A Burndown Chart.
+The burndown chart is the number one reason for Scrum's popularity,
+and one of the best project visibility tools to ensure a project is progressing smoothly.
+The burndown chart provides a day-by-day measure of the amount of work that remains in a given
+sprint or release.
+In this graph, you can see that the amount of work remaining bounces up and down from
+day to day,
+but is generally trending towards zero.
+Because historical information is provided in the burndown chart,
+it's easy to see if the team is on the right track.
+Using the burndown chart, the team can quickly calculate this:
+the slope of the graph, which is also called the Burndown Velocity.
+This is the average rate of productivity for each day.
+For example, a team's rate of productivity might be that on a typical day,
+they finish approximately 50 hours of work.
+Knowing that, it's possible to calculate an estimated completion date for the sprint
+or even for the entire release, based on the amount of work remaining.
+What's great about the burndown chart
+is that we can compare our actual velocity and projected completion date
+to what the team needs to do in order to finish OnTime.
+This is perhaps the most useful piece of knowledge
+that any team member, product owner or product executive can have about the project,
+because knowing whether or not the project is on track early in the schedule
+can help teams make the proper adjustments necessary to get the project on track.
+The burndown chart provides empirical proof that the project is on track or if it's going
+to be late.
+So, let's talk a little about where the data for this incredibly useful burndown chart
+comes from.
+As you recall, part of the release planning process was to create an estimate for each
+user-story in the release backlog.
+The collection of these estimates for a given sprint represents the total amount of work
+that must be done to complete that sprint.
+As each team member goes through and makes progress on one or more of the user-stories,
+they simply update the amount of time remaining for each of their own items.
+So, the total amount of time remaining on the group of user-stories that make up a sprint,
+changes on a day-by-day basis,
+hopefully going downward until it hits zero when the sprint is complete.
+The burndown chart aggregates the remaining work data and shows it visually.
+It's brilliant because it communicates a massive amount of information in just a few seconds.
+Daily Scrum
+And that brings us to this:
+The Daily Scrum.
+The Daily Scrum is an essential tool to having communication flow freely between team members.
+The idea is to have fast paced stand-up meetings
+where team members quickly list the work they completed since the last meeting,
+and any obstacles in their way.
+By meeting daily, it ensures the team is always in-sync,
+and any major issues are dealt with as soon as they are known.
+Finally, as each sprint comes to a finish,
+it’s important to have a Sprint Retrospective meeting,
+where the team can reflect on what went right and areas of improvement.
+After all, Scrum is a flexible agile development method
+that needs constant improving and tweaking for every team.
+Tools
+So, there you have it.
+Scrum in under 10 minutes.
+You now know all the essential concepts to start implementing Scrum inside of your organization.
+But wait a second,
+what about tools to help you implement Scrum?
+Well, it just so happens that I’ve spent the last 10 years building such a tool.
+With a lot of help from these guys:
+a group of genius coders and design ninjas.
+The tool is called, OnTime,
+and it helps you manage your products, your backlogs, your team,
+your releases and your sprints.
+It gives you project visibility with burndown charts,
+and always answers the question of who is working on what.
+You can get started with it for free, at Axosoft.com.
+Of course, you could use a giant white board, some note cards [Paper crumples]
+and a bunch of different spreadsheets [Paper crumples] to track everything.
+You could also use an abacus instead of a calculator to do math, but we’re getting
+a little off topic.
+So, let's quickly review everything.
+Review
+In Scrum, you work with this: a Product Backlog,
+which is nothing more than a list of features that we call User-Stories.
+You then break down the product backlog into one or more Release Backlogs,
+and for a given release, you further break up the release backlog
+into a number of Sprint Backlogs
+which are essentially short duration milestones throughout your project.
+You then monitor the progress of each sprint using these: Burndown Charts
+and have Daily Scrum meetings to ensure everything is on track.
+After each sprint, you have a Retrospective meeting to fine-tune everything.
+And if you want a tool to implement Scrum, you can use, OnTime.
+It'll help you ship software, OnTime.
+That’s all there is to it!
+Oh, and one last thing.
+Whether you loved or hated this video, I’d love to hear from you.
+You can reach me on twitter or via email if you have any feedback.
+Now get going,
+Create a great team,
+Collaborate,
+and Ship Software OnTime.

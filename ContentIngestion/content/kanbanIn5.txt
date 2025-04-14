@@ -1,0 +1,58 @@
+Hi, I'm Angelo Coppola with Axosoft.
+You've probably seen our video, Scrum in Under 10 Minutes,
+which is the world's most popular video about the Scrum methodology.
+Many viewers have written us requesting that we talk about another software development system,
+Kanban.
+Kanban is a fantastic way to get things done, and it also works great in conjunction with Scrum,
+if that's the way you want to do it.
+A Kanban is a lean scheduling system, developed in Japan
+by the Toyota Motor Corporation. A Kanban system utilizes visual cues that
+tell you what to produce, how much to produce,
+and when to produce it. A typical sushi menu like this
+is a great example of a Kanban. Customers indicate which items they would
+like to have right then and how many of each.
+It's simple and efficient... like these... Maybe this is why your favorite sushi restaurant
+always seems to get your order right! When adapted to software development,
+Kanban systems usually start with a board and visual cards that represent items in your product backlog.
+On the board, you place the cards into columns
+that represent their current step in the workflow, ranging from "New" to "Complete".
+The steps in-between are entirely up to you, so keep it simple and efficient.
+The visual nature of the board makes it easy to find out: what's already been done,
+what's in progress, and what's going to be started next.
+So long as your team keeps finishing work,
+those cards keep moving to the right, like this...
+and most importantly, you keep delivering features to your customers.
+To help ensure items are being completed at a steady pace,
+Kanban imposes limits on the number of items that can live in any one workflow step at any given time.
+These are called Work in Progress, or WIP Limits.
+They should be set so that the work flows as smoothly and consistently as possible.
+If your team runs into a problem, these limits will bring it to light very quickly
+by creating a visible bottleneck.
+This allows the entire team to "swarm" on the problem,
+and that's just another way of saying "collaborate".
+Limiting the amount of work that's in progress means that you've got to finish some of the
+things on your plate before you can start on additional items.
+WIP limits help you: keep work flowing,
+save time by eliminating too much task switching, and complete tasks.
+Kanban is fantastic in it's own right and on many projects may be all that you need,
+but I've found that when paired with a good Scrum framework and a great Scrum tool,
+Kanban really shines.
+Scrum provides the structure for organizing feedback,
+short-term planning, stack ranking, an inspect-and-adapt mindset,
+and other organizational improvements;
+While Kanban provides a steady flow of tasks that reach 100% completion by helping your
+team manage day-to-day development with a minimum of overhead and blocking issues.
+So there you have it, Kanban for Software Development.
+You can get started on Kanban and Scrum with a Free 30-day Trial of OnTime Scrum.
+It is a feature-packed, blazingly fast way to manage your software projects.
+With OnTime Scrum, you can visualize your product backlog as cards and rank their importance.
+You can also organize items by developer.
+Imagine the peace of mind you'll get from this view of your project...
+knowing who's working on what and when it will be done.
+Not only that, but with customizable dashboards,
+you can see burndown charts, graphs, and projected shipping dates.
+This kind of project visibility inspires confidence. Get started for Free at OnTimeNow.com
+And if you have any questions, you can always reach us at team@axosoft.com.
+[Music ends]
+When it comes to bottlenecks, I've got my own secret weapon f or making sure that things get done on-time.
+Thanks Kanbot!
