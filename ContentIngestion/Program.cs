@@ -1,17 +1,21 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿#pragma warning disable SKEXP0010 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
+
 using AppInfra;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.SemanticKernel;
+using Microsoft.Extensions.Configuration;
+using System.Threading.Tasks;
 
-
-
+namespace ContentIngestion;
 public class ConsoleApplication
 {
-    public ConsoleApplication()
+    private readonly DataUploader _dataUploader;
+    public ConsoleApplication(DataUploader dataUploader)
     {
+        _dataUploader = dataUploader;
     }
 
-
-
-    public void ProcessFilesInDirectory(string folderPath)
+    public async Task ProcessFilesInDirectory(string folderPath)
     {
        if (!Directory.Exists(folderPath))
         {
@@ -37,12 +41,7 @@ public class ConsoleApplication
             allFragments.AddRange(fragments);
         }
 
-        // serialize the fragments to JSON
-        string json = System.Text.Json.JsonSerializer.Serialize(allFragments, new System.Text.Json.JsonSerializerOptions
-        {
-            WriteIndented = true
-        });
-        Console.WriteLine(json);
+        await _dataUploader.GenerateEmbeddingsAndUpload("collection1", allFragments);
          
     }
 
@@ -58,9 +57,14 @@ class Program
 {
     static void Main(string[] args)
     {
+        // Create configuration
+        IConfigurationRoot config = new ConfigurationBuilder()
+            .AddEnvironmentVariables()
+            .Build();
+        
         // Create service collection
         var services = new ServiceCollection();
-        ConfigureServices(services);
+        ConfigureServices(services,config);
 
         // Build service provider
         using ServiceProvider serviceProvider = services.BuildServiceProvider();
@@ -72,10 +76,26 @@ class Program
         app.Run();
     }
 
-    private static void ConfigureServices(ServiceCollection services)
+    private static void ConfigureServices(ServiceCollection services, IConfiguration configuration)
     {
         // Register services
-        
+
+        // Register text embedding generation service and Postgres vector store.
+        string textEmbeddingModel = "text-embedding-3-small";
+        string openAiApiKey = configuration["OPENAI_API_KEY"];
+        string postgresConnectionString = configuration["DB_CONNECTION"];
+
+        Console.WriteLine($">>>>> Postgres connection string: {postgresConnectionString}");
+        Console.WriteLine($">>>>> OpenAI API key: {openAiApiKey}");
+
+        //var builder = Kernel.CreateBuilder()
+        //    .AddOpenAITextEmbeddingGeneration(textEmbeddingModel, openAiApiKey);
+
+        services.AddOpenAITextEmbeddingGeneration(textEmbeddingModel, openAiApiKey);
+        services.AddPostgresVectorStore(postgresConnectionString);
+
+        // Register the data uploader.
+        services.AddSingleton<DataUploader>();        
         
         // Register application
         services.AddSingleton<ConsoleApplication>();
