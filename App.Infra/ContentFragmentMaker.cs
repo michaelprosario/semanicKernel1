@@ -56,12 +56,14 @@ namespace AppInfra
                 foreach (var chunk in chunks)
                 {
                     // fill out the fragment
-                    var fragment = new ContentItemFragment();
-                    fragment.Id = Guid.NewGuid();
-                    fragment.ContentItemId = contentItemId;
-                    fragment.Content = chunk;
-                    fragment.Source = fileName;
-                    fragment.Embedding = null; // Placeholder for embedding, if needed
+                    var fragment = new ContentItemFragment
+                    {
+                        Id = Guid.NewGuid(),
+                        ContentItemId = contentItemId,
+                        Content = chunk,
+                        Source = fileName,
+                        Embedding = null // Placeholder for embedding, if needed
+                    };
                     response.Add(fragment);
                 }
 

@@ -41,7 +41,12 @@ public class ConsoleApplication
             allFragments.AddRange(fragments);
         }
 
-        await _dataUploader.GenerateEmbeddingsAndUpload("collection1", allFragments);
+        // serialize all fragments to JSON
+        string json = System.Text.Json.JsonSerializer.Serialize(allFragments);
+        Console.WriteLine($"Serialized {allFragments.Count} fragments to JSON.");
+        Console.WriteLine(json);
+
+        await _dataUploader.GenerateEmbeddingsAndUpload("content_item_fragment", allFragments);
          
     }
 
