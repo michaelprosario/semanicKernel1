@@ -4,13 +4,13 @@ namespace AppInfra
 {
     public class ContentItemFragment
     {
-        [VectorStoreRecordKey]
-        public Guid Id { get; set; }
+        [VectorStoreRecordKey(StoragePropertyName = "id")]
+        public string Id { get; set; }
 
         [VectorStoreRecordData(StoragePropertyName = "content_item_id")]
         public Guid ContentItemId { get; set; }
 
-        [VectorStoreRecordVector(Dimensions: 4, DistanceFunction.CosineDistance)]
+        [VectorStoreRecordVector(Dimensions: 4, DistanceFunction.CosineDistance, StoragePropertyName = "embedding")]
         public ReadOnlyMemory<float>? Embedding { get; set; }
 
         [VectorStoreRecordData(StoragePropertyName = "content")]

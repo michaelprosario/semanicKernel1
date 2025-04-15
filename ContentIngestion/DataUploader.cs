@@ -23,7 +23,7 @@ public class DataUploader(
         )
     {
         var collection = vectorStore.GetCollection<string, ContentItemFragment>(collectionName);
-        await collection.CreateCollectionIfNotExistsAsync();
+        //await collection.CreateCollectionIfNotExistsAsync();
 
         foreach (var fragment in fragments)
         {

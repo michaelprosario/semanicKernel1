@@ -41,30 +41,26 @@ public class ConsoleApplication
             allFragments.AddRange(fragments);
         }
 
-        // serialize all fragments to JSON
-        string json = System.Text.Json.JsonSerializer.Serialize(allFragments);
-        Console.WriteLine($"Serialized {allFragments.Count} fragments to JSON.");
-        Console.WriteLine(json);
-
         await _dataUploader.GenerateEmbeddingsAndUpload("content_item_fragment", allFragments);
          
     }
 
-    public void Run()
+    public async Task Run()
     {
-        string folderPath = "/workspaces/semanicKernel1/ContentIngestion/content2";
+        string folderPath = "C:\\dev\\AiPlayground1\\ContentIngestion\\content2";
     
-        ProcessFilesInDirectory(folderPath);
+        await ProcessFilesInDirectory(folderPath);
     }
 }
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         // Create configuration
         IConfigurationRoot config = new ConfigurationBuilder()
             .AddEnvironmentVariables()
+            .AddUserSecrets<Program>(optional: true)
             .Build();
         
         // Create service collection
@@ -76,9 +72,9 @@ class Program
 
         // Get the application instance from the service provider
         var app = serviceProvider.GetRequiredService<ConsoleApplication>();
-        
+
         // Run the application
-        app.Run();
+        await app.Run();
     }
 
     private static void ConfigureServices(ServiceCollection services, IConfiguration configuration)

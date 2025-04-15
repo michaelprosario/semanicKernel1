@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiPlayground1", "AiPlayground1\AiPlayground1.csproj", "{0DFABDCC-EF55-0803-4FE0-8D832F52AC3F}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Core", "App.Core\App.Core.csproj", "{45EE9DB1-F6CD-4251-B44A-EAFF26B9EBA5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Infra", "App.Infra\App.Infra.csproj", "{0F6F2C25-75A1-4BD9-90BA-6E492EE6DCE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentIngestion", "ContentIngestion\ContentIngestion.csproj", "{22ED87B5-D406-AF17-FA7B-9E9C606E2D38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0F6F2C25-75A1-4BD9-90BA-6E492EE6DCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F6F2C25-75A1-4BD9-90BA-6E492EE6DCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F6F2C25-75A1-4BD9-90BA-6E492EE6DCE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22ED87B5-D406-AF17-FA7B-9E9C606E2D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22ED87B5-D406-AF17-FA7B-9E9C606E2D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22ED87B5-D406-AF17-FA7B-9E9C606E2D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22ED87B5-D406-AF17-FA7B-9E9C606E2D38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

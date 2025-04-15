@@ -58,7 +58,7 @@ namespace AppInfra
                     // fill out the fragment
                     var fragment = new ContentItemFragment
                     {
-                        Id = Guid.NewGuid(),
+                        Id = Guid.NewGuid().ToString(),
                         ContentItemId = contentItemId,
                         Content = chunk,
                         Source = fileName,
