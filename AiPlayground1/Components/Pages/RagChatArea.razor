@@ -1,4 +1,5 @@
-﻿@page "/rag-chat"
+﻿
+@page "/rag-chat"
 @using AppInfra;
 @using Microsoft.Extensions.VectorData;
 @using Microsoft.SemanticKernel;
@@ -6,11 +7,11 @@
 @using Microsoft.SemanticKernel.Connectors.OpenAI;
 @using Microsoft.SemanticKernel.Data;
 @using Microsoft.SemanticKernel.PromptTemplates.Handlebars;
-
+@using Microsoft.SemanticKernel.Embeddings;
+@inject IVectorStoreRecordCollection<string,AppInfra.ContentItemFragment> vectorStoreRecordCollection;
+@inject ITextEmbeddingGenerationService textEmbeddingGeneration;
 @inject IJSRuntime JS;
 @inject IConfiguration Configuration;
-@inject IVectorizableTextSearch<ContentItemFragment> textSearch;
-
 
 
 <div class="container mt-4">
@@ -60,12 +61,14 @@
 </div>
 
 @code {
+    #pragma warning disable SKEXP0001 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
     private ChatHistory chatHistory = new();
     private string userInput = string.Empty;
     private bool isLoading = false;
     private ElementReference chatContainerRef;
     Kernel kernel;
     IChatCompletionService ChatCompletionService;
+    VectorStoreTextSearch<AppInfra.ContentItemFragment> textSearch;
 
     
     protected override async Task OnInitializedAsync()
@@ -81,6 +84,7 @@
         // Build a text search plugin with vector store search and add to the kernel
         
         // How do you Build a text search plugin with vector store search and add to the kernel?
+        textSearch = new VectorStoreTextSearch<ContentItemFragment>(vectorStoreRecordCollection, textEmbeddingGeneration);
         
         // https://learn.microsoft.com/en-us/semantic-kernel/concepts/text-search/text-search-vector-stores?pivots=programming-language-csharp
                 

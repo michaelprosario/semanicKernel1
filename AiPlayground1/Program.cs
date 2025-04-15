@@ -6,6 +6,9 @@ using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.Postgres;
 using Microsoft.Extensions.DependencyInjection;
 using Npgsql;
+using Microsoft.Extensions.VectorData;
+using Microsoft.SemanticKernel.Embeddings;
+using AppInfra;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +22,12 @@ Console.WriteLine($">>>>> OpenAI API key: {openAiApiKey}");
 
 builder.Services.AddOpenAITextEmbeddingGeneration(textEmbeddingModel, openAiApiKey);
 builder.Services.AddPostgresVectorStore(postgresConnectionString);
+
+builder.Services.AddSingleton<IVectorStoreRecordCollection<string,ContentItemFragment>>(sp =>
+{
+    var postgresVectorStore = sp.GetRequiredService<PostgresVectorStore>();
+    return postgresVectorStore.GetCollection<string, ContentItemFragment>("content_item_fragment");
+});
 
 
 builder.AddServiceDefaults();

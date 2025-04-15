@@ -30,7 +30,7 @@ public class ConsoleApplication
 
         Console.WriteLine($"Found {textFiles.Length} text file(s) in '{folderPath}'.\n");
 
-        List<ContentItemFragment> allFragments = new List<ContentItemFragment>();
+        List<ContentItemFragment> allFragments = [];
         var contentFragmentMaker = new ContentFragmentMaker();
         foreach (string filePath in textFiles)
         {
