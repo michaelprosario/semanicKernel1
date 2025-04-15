@@ -1,10 +1,12 @@
 ﻿using Microsoft.Extensions.VectorData;
+using Microsoft.SemanticKernel.Data;
 
 namespace AppInfra
 {
     public class ContentItemFragment
     {
         [VectorStoreRecordKey(StoragePropertyName = "id")]
+        [TextSearchResultName]
         public string Id { get; set; }
 
         [VectorStoreRecordData(StoragePropertyName = "content_item_id")]
@@ -14,6 +16,7 @@ namespace AppInfra
         public ReadOnlyMemory<float>? Embedding { get; set; }
 
         [VectorStoreRecordData(StoragePropertyName = "content")]
+        [TextSearchResultValue]
         public string Content { get; set; } = string.Empty;
 
         [VectorStoreRecordData(StoragePropertyName = "source")]

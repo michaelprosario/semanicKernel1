@@ -1,3 +1,5 @@
+#pragma warning disable SKEXP0010 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
+
 using Microsoft.SemanticKernel;
 using AiPlayground1.Components;
 using Microsoft.SemanticKernel.ChatCompletion;
@@ -6,10 +8,17 @@ using Microsoft.Extensions.DependencyInjection;
 using Npgsql;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("PostgresConnection");
-builder.Services.AddPostgresVectorStore(connectionString);
 
-// get postgres connection string from configuration
+// Register text embedding generation service and Postgres vector store.
+string textEmbeddingModel = "text-embedding-3-small";
+string openAiApiKey = builder.Configuration["OPENAI_API_KEY"];
+string postgresConnectionString = builder.Configuration["DB_CONNECTION"];
+
+Console.WriteLine($">>>>> Postgres connection string: {postgresConnectionString}");
+Console.WriteLine($">>>>> OpenAI API key: {openAiApiKey}");
+
+builder.Services.AddOpenAITextEmbeddingGeneration(textEmbeddingModel, openAiApiKey);
+builder.Services.AddPostgresVectorStore(postgresConnectionString);
 
 
 builder.AddServiceDefaults();

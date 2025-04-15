@@ -1,9 +1,17 @@
-﻿@page "/chat"
+﻿@page "/rag-chat"
+@using AppInfra;
+@using Microsoft.Extensions.VectorData;
 @using Microsoft.SemanticKernel;
 @using Microsoft.SemanticKernel.ChatCompletion;
 @using Microsoft.SemanticKernel.Connectors.OpenAI;
+@using Microsoft.SemanticKernel.Data;
+@using Microsoft.SemanticKernel.PromptTemplates.Handlebars;
+
 @inject IJSRuntime JS;
 @inject IConfiguration Configuration;
+@inject IVectorizableTextSearch<ContentItemFragment> textSearch;
+
+
 
 <div class="container mt-4">
     <div class="row">
@@ -70,11 +78,15 @@
         var builder = Kernel.CreateBuilder();
         builder.Services.AddOpenAIChatCompletion(modelId, openAiApiKey);
 
-        // OpenAI
-        // builder.Services.AddOpenAIChatCompletion(
-        // 	modelId: OpenAIModelId,
-        // 	apiKey: OpenAIApiKey
-        // );
+        // Build a text search plugin with vector store search and add to the kernel
+        
+        // How do you Build a text search plugin with vector store search and add to the kernel?
+        
+        // https://learn.microsoft.com/en-us/semantic-kernel/concepts/text-search/text-search-vector-stores?pivots=programming-language-csharp
+                
+        //var searchPlugin = textSearch.CreateWithGetTextSearchResults("SearchPlugin");
+        //kernel.Plugins.Add(searchPlugin);
+
         kernel = builder.Build();
 
         ChatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
