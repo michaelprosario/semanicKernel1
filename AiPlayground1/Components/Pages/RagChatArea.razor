@@ -8,10 +8,10 @@
 @using Microsoft.SemanticKernel.Data;
 @using Microsoft.SemanticKernel.PromptTemplates.Handlebars;
 @using Microsoft.SemanticKernel.Embeddings;
-@inject IVectorStoreRecordCollection<string,AppInfra.ContentItemFragment> vectorStoreRecordCollection;
 @inject ITextEmbeddingGenerationService textEmbeddingGeneration;
 @inject IJSRuntime JS;
 @inject IConfiguration Configuration;
+@inject IVectorStore vectorStore;
 
 
 <div class="container mt-4">
@@ -84,14 +84,20 @@
         // Build a text search plugin with vector store search and add to the kernel
         
         // How do you Build a text search plugin with vector store search and add to the kernel?
+        var vectorStoreRecordCollection = vectorStore.GetCollection<string, ContentItemFragment>("content_item_fragment");
         textSearch = new VectorStoreTextSearch<ContentItemFragment>(vectorStoreRecordCollection, textEmbeddingGeneration);
         
+        kernel = builder.Build();
+
         // https://learn.microsoft.com/en-us/semantic-kernel/concepts/text-search/text-search-vector-stores?pivots=programming-language-csharp
                 
-        //var searchPlugin = textSearch.CreateWithGetTextSearchResults("SearchPlugin");
-        //kernel.Plugins.Add(searchPlugin);
+        // Build a text search plugin with vector store search and add to the kernel
+        var searchPlugin = textSearch.CreateWithGetTextSearchResults("SearchPlugin");
+        if(searchPlugin == null)
+            throw new Exception("searchPlugin is not defined");
+            
+        kernel.Plugins.Add(searchPlugin);
 
-        kernel = builder.Build();
 
         ChatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
     }
@@ -138,6 +144,24 @@
         isLoading = true;
         StateHasChanged();
 
+
+        // Invoke prompt and use text search plugin to provide grounding information
+        string promptTemplate = @"
+            {{#with (SearchPlugin-GetTextSearchResults query)}}  
+                {{#each this}}  
+                Name: {{Name}}
+                Value: {{Value}}
+                Link: {{Link}}
+                -----------------
+                {{/each}}  
+            {{/with}}  
+
+            {{query}}
+
+            Include citations to the relevant information where it is referenced in the response.
+            ";
+
+
         try
         {
             // Configure execution settings
@@ -151,14 +175,30 @@
 
 
             // Get response from AI
+            KernelArguments arguments = new() { { "query", message } };
+            HandlebarsPromptTemplateFactory promptTemplateFactory = new();
+            
+            
+            var result = await kernel.InvokePromptAsync(
+                promptTemplate,
+                arguments,
+                templateFormat: HandlebarsPromptTemplateFactory.HandlebarsTemplateFormat,
+                promptTemplateFactory: promptTemplateFactory
+            );
+
+            /*
+            // Get the chat message content             
             var result = await ChatCompletionService.GetChatMessageContentAsync(
                 chatHistory,
                 executionSettings: executionSettings,
                 kernel
             );
+            */
+            
+            var chatResult = result.ToString(); 
 
             // Add AI response to history
-            chatHistory.AddMessage(result.Role, result.Content ?? string.Empty);
+            chatHistory.AddMessage(AuthorRole.Assistant, chatResult ?? string.Empty);
         }
         catch (Exception ex)
         {
