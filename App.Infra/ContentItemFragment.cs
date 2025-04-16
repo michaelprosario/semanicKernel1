@@ -5,8 +5,7 @@ namespace AppInfra
 {
     public class ContentItemFragment
     {
-        [VectorStoreRecordKey(StoragePropertyName = "id")]
-        [TextSearchResultName]
+        [VectorStoreRecordKey(StoragePropertyName = "id")]        
         public string Id { get; set; }
 
         [VectorStoreRecordData(StoragePropertyName = "content_item_id")]
@@ -20,6 +19,7 @@ namespace AppInfra
         public string Content { get; set; } = string.Empty;
 
         [VectorStoreRecordData(StoragePropertyName = "source")]
+        [TextSearchResultName]
         public string Source { get; set; } = string.Empty;
     }
 }
