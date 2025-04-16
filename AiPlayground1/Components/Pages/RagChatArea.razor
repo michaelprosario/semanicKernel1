@@ -67,7 +67,6 @@
     private bool isLoading = false;
     private ElementReference chatContainerRef;
     Kernel kernel;
-    IChatCompletionService ChatCompletionService;
     VectorStoreTextSearch<AppInfra.ContentItemFragment> textSearch;
 
     
@@ -81,8 +80,7 @@
         var builder = Kernel.CreateBuilder();
         builder.Services.AddOpenAIChatCompletion(modelId, openAiApiKey);
 
-        // Build a text search plugin with vector store search and add to the kernel
-        
+        // Build a text search plugin with vector store search and add to the kernel    
         // How do you Build a text search plugin with vector store search and add to the kernel?
         var vectorStoreRecordCollection = vectorStore.GetCollection<string, ContentItemFragment>("content_item_fragment");
         textSearch = new VectorStoreTextSearch<ContentItemFragment>(vectorStoreRecordCollection, textEmbeddingGeneration);
@@ -97,17 +95,12 @@
             throw new Exception("searchPlugin is not defined");
             
         kernel.Plugins.Add(searchPlugin);
-
-
-        ChatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
     }
-
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         await ScrollToBottom();
     }
-
     private async Task ScrollToBottom()
     {
         try
@@ -128,6 +121,46 @@
         }
     }
 
+    private string GetPromptTemplate(){
+        return @"
+            {{#with (SearchPlugin-GetTextSearchResults query)}}  
+                {{#each this}}  
+                Name: {{Name}}
+                Value: {{Value}}
+                Link: {{Link}}
+                -----------------
+                {{/each}}  
+            {{/with}}  
+
+            {{query}}
+
+            Please answer in paragraph format.  Limit responses to 3-5 sentences.
+
+            Include citations to the relevant information where it is referenced in the response.
+            ";
+    }
+
+    private async Task GetAssistantResponse(string message)
+    {
+        // Invoke prompt and use text search plugin to provide grounding information
+        string promptTemplate = GetPromptTemplate();
+
+        KernelArguments arguments = new() { { "query", message } };
+        HandlebarsPromptTemplateFactory promptTemplateFactory = new();
+                    
+        var result = await kernel.InvokePromptAsync(
+            promptTemplate,
+            arguments,
+            templateFormat: HandlebarsPromptTemplateFactory.HandlebarsTemplateFormat,
+            promptTemplateFactory: promptTemplateFactory
+        );
+        
+        var chatResult = result.ToString(); 
+
+        // Add AI response to history
+        chatHistory.AddMessage(AuthorRole.Assistant, chatResult ?? string.Empty);
+    }
+
     private async Task SendMessage()
     {
         if (string.IsNullOrWhiteSpace(userInput) || isLoading)
@@ -144,63 +177,16 @@
         isLoading = true;
         StateHasChanged();
 
-
-        // Invoke prompt and use text search plugin to provide grounding information
-        string promptTemplate = @"
-            {{#with (SearchPlugin-GetTextSearchResults query)}}  
-                {{#each this}}  
-                Name: {{Name}}
-                Value: {{Value}}
-                Link: {{Link}}
-                -----------------
-                {{/each}}  
-            {{/with}}  
-
-            {{query}}
-
-            Please answer in paragraph format.  Limit responses to 3-5 sentences.
-
-            Include citations to the relevant information where it is referenced in the response.
-            ";
-
-
         try
         {
             // Configure execution settings
             OpenAIPromptExecutionSettings executionSettings = new()
-                {
-                    FunctionChoiceBehavior = FunctionChoiceBehavior.Auto()
-                };
-
-            // Access kernel using dependency injection
-            
-
+            {
+                FunctionChoiceBehavior = FunctionChoiceBehavior.Auto()
+            };
 
             // Get response from AI
-            KernelArguments arguments = new() { { "query", message } };
-            HandlebarsPromptTemplateFactory promptTemplateFactory = new();
-            
-            
-            var result = await kernel.InvokePromptAsync(
-                promptTemplate,
-                arguments,
-                templateFormat: HandlebarsPromptTemplateFactory.HandlebarsTemplateFormat,
-                promptTemplateFactory: promptTemplateFactory
-            );
-
-            /*
-            // Get the chat message content             
-            var result = await ChatCompletionService.GetChatMessageContentAsync(
-                chatHistory,
-                executionSettings: executionSettings,
-                kernel
-            );
-            */
-            
-            var chatResult = result.ToString(); 
-
-            // Add AI response to history
-            chatHistory.AddMessage(AuthorRole.Assistant, chatResult ?? string.Empty);
+            await GetAssistantResponse(message);
         }
         catch (Exception ex)
         {
