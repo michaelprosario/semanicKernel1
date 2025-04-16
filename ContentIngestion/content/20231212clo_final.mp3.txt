@@ -1,0 +1,886 @@
+ On today's episode, we are talking about artificial intelligence with the director of
+ strategy from consult webs, Grant Brought.
+ Listen in as he shares insights on what it is, what it isn't, where it's headed, and what
+ you should do with it.
+ That is coming up next.
+ Welcome to the Crystal Acordo Show, where we discuss leadership and life, and discover
+ that business is what you do, not who you are.
+ Welcome to the show, folks.
+ I hope you're having a fabulous day wherever you are.
+ I am having a great day, because joining me in studio today, while in virtual studio today,
+ is Grant Brought.
+ Grant, welcome to the show.
+ Thanks Chris, great to be here.
+ It is so good having you on, and I'm going to talk about all the stuff that you do, but
+ first I want to recognize that you also were a sergeant in the Marine Corps.
+ So first I want to say thank you so much for your service.
+ We greatly appreciate that into everybody who has served.
+ Thank you.
+ You not only were in the military, you're an SEO manager, you're a Google analytics expert,
+ you're lead marketing consultant, you're the director of strategy, and most recently I
+ love this.
+ I can't wait to understand it.
+ You're the next level prompt engineer with AI.
+ So obviously that's how it's pretty impressive, but what in the world does that even mean?
+ It is a course that I went there in a completely a choice to be in a year that goes through
+ using prompts and how to communicate with AI, a big part of using AI these days is communicating
+ with it.
+ How do you talk to AI?
+ How do you get what you want from it?
+ That course goes very deep into all of that to help you to get better results from communicating
+ with AI tools out there.
+ Now, I know we're going to have to get into a lot of information on this because there's so
+ many details of just trying to understand AI.
+ We just had you at our next level of mastermind retreat a few weeks ago and you freaking killed
+ it with great information.
+ I mean, everybody there was just so locked in and everybody had their computers open, everybody
+ was working on AI learning how to use this stuff.
+ It was amazing.
+ The prompt aspect of it was such a big piece, which I'm sure we'll probably get more into that,
+ learning how to set these things up to make AI work for you the best possible.
+ Some of the things that people are probably used to hearing lately is like chat GPT.
+ I know that that's until you, that was the one AI that I knew of.
+ I'm sure that's probably the same thing that most clients have learned from and all that
+ kind of stuff.
+ But we want to dig into as much as we possibly can.
+ Before we do that, or actually starting to do that, can you give us an introduction into just
+ as simple as possible, a simple explanation of what artificial intelligence is and how
+ in the world can benefit small businesses.
+ I know there's no way you could cover it all, but if you just give us the simple, the
+ simplistic explanation.
+ Yeah, I think start with artificial intelligence when you hear that word, you think like
+ stuff from the movies, Terminator, I robot and stuff like that where it's these intelligent robot
+ creatures doing things and that is not what we have today.
+ We are far off from that.
+ What we have today is a piece of what that is made up of.
+ We have that communication piece.
+ Chat GPT is basically a chat bot that uses different things like natural language and deep learning
+ and neural networks to learn from a set of knowledge.
+ It's basically a giant database of information and from that database, it can pull information
+ and create human-like responses.
+ It's not thinking for itself.
+ It's not creative.
+ It doesn't have a motion.
+ It doesn't have bias at its root.
+ It's almost like a statistical math problem.
+ It's calculating what the next word likely is and it's repeating that over and over again to
+ give you a response.
+ So it's that communication piece.
+ That first step in communication for AI.
+ It's so complicated to understand and then once you get into it, it just makes so much sense.
+ Yeah.
+ It's this beginning process of going, okay, great.
+ I don't even know half of what you just said there.
+ I don't understand it, but I know this thing is out there and everybody's saying that I need
+ to use it.
+ So for the small businesses, what are some specific cases where AI can be particularly beneficial?
+ Like I know one of my favorite things were sitting there and we have one of our clients as
+ you were teaching owns a bakery.
+ Small business bakery.
+ As you're teaching this, I'm sitting back there going, here we are coming up on Thanksgiving
+ because this is a few weeks ago and I'm like, I wonder what this thing can spit out marketing
+ wise.
+ Now listen to me people because this is so fantastic.
+ So that's one of the things I suggest.
+ I'm like, so Grant, what about Charlotte back here, he's got this bakery, what could this
+ do marketing wise and Charlotte turns around, types in this whole thing about her Thanksgiving
+ roles and her Thanksgiving turkey.
+ And within seconds, she had a social media campaign that spit out just the granted, like,
+ she read this thing off and all of us are going, man, I want those roles.
+ So I mean, just like something so simple as just marketing, but what are some specific uses
+ where small businesses can use AI?
+ Yeah, I think there's a lot of benefits for small businesses with this technology and just
+ getting in there with chat, GPT or other tools like Claude and playing with it is kind of your
+ start.
+ But social media posting, like you just talked about, is a quick and easy way to get in there
+ and give it some information about what you're looking for for a social post and ask it to
+ provide you a Facebook post and Instagram post or whatever it might be.
+ And now since we're at the retreat now, you've actually got image stuff built into
+ the chat GPT, it's all in one chat session.
+ So you could literally talk to it and be like, hey, I need a social post for these roles on Thanksgiving
+ and then I need an image of roles next to a turkey and it would create you an image of roles
+ next to a turkey that you could even use.
+ And so the ease of use and creation and there is phenomenal now.
+ And that's just like the social is just, that's a quick and easy way to get in there.
+ But think about anything that requires brainstorming, research, content outlining, content drafting,
+ all of those are quick, easy areas to get in there and start playing with it and just kind
+ of talk to it.
+ Think of it as you were talking to it, if you're doing social media, treat it like it's a social
+ media person and you're having a conversation with that person.
+ Ask it about questions, be like, hey, how could I improve this?
+ What do I need for this?
+ Ask it questions.
+ You could even go as far as just asking it, hey, this is what I'm trying to do.
+ Can you do this?
+ Okay, ask me some questions to help me guide you in doing this with me and it will guide you
+ and ask you questions and information that it wants to know in order to complete the task
+ you're asking it to do.
+ I love what the things you put it out towards the end was one day you just asked it, what
+ can you do in this area?
+ Can it give you like five or ten different things?
+ Well, I could do this, I could do this, I could do this.
+ So something so simple and again, we're just talking about the marketing aspect, but seriously,
+ like if you were writing content for something or for some folks who needed to create, let's
+ say a process, writing small business processes inside of their business on how to do something,
+ this is a process where you could put information in, I need you to write up a step
+ by step process for how to do this and then again, back to the prompting thing with this information,
+ this information, this information, yadiyada yada yada.
+ And it spits out something that's spectacular.
+ Doesn't mean that it's going to be 100%.
+ Doesn't mean, and one of the things you pointed out is currently chat GPT only pulls information
+ all the way up to 2021, I think.
+ They just updated that.
+ So they had a dev day a couple weeks ago.
+ So it's now up to April of this year, April of 2023.
+ And they say they're going to continue to keep it updated like that.
+ So my guess is every three to six months, they're going to do some sort of update to it to
+ bring it current.
+ It's like it's going to more.
+ So if you're looking for really super current stuff, then one of the things that you have to
+ realize is that it may not have all of that information.
+ So you said it so many times during the retreat, hey, you have to check, you fact check yourself.
+ You have to fact check everything that you're getting out of this.
+ However, the ability to plug information in, get a lot of receive good quality information.
+ Fact check it if you have to change for five things.
+ So what?
+ Just don't be dumb enough to send it out.
+ Don't don't take the first draft and send that out, put that out somewhere online or go through
+ and make sure all the information is correct.
+ But the ability to take, I need this new process on how to, I don't know, the guys in
+ the detail bay on how to detail a car.
+ And you do a walk by walk, our step by step piece on how to do this and hand that to them
+ and go, here's how you do this.
+ This is, and you can always make adjustments all that kind of stuff.
+ The ability to come up with content, hey, I need, you know, my kid is researching a paper on, you
+ know, 1776.
+ What exactly happened?
+ Who did what?
+ Who signed what?
+ What was it all about?
+ Boom, all of this information comes flooding in and then you can utilize that information.
+ Yes, it sounds like it's, well, can't I just get that from Google?
+ But really what's happening is it's formatting it in a way that you decide to tell, maybe
+ a story.
+ And, you know, I think one of the things you can have it written and then, like, let's say we're
+ doing social media posts and then say, hey, great post, can you make this funnier?
+ Can you make this shorter?
+ Can you make this sound more professional?
+ All of those different things.
+ How important is it for small businesses to get started on this even if they just choose, like,
+ one or two areas?
+ I think it's, everybody needs to be playing with this.
+ Everybody should go set up a chat, GP, to e account.
+ Even if it's just a free version, the paid version has so many more features and capacity to
+ it.
+ But even just getting in there on the free version and playing with it, you're going to
+ need to know this.
+ You're going to need to understand it, be able to use it and not just you, but your kids.
+ Like your kids need to use it and understand how to use it the right way.
+ You mentioned that, you know, looking something up and researching it, that was one of the
+ first things I did with Chad GPT was my kid had a project on.
+ The food chain and his thing was green algae and we could not find physical and behavioral
+ characteristics to save our lives that day.
+ Later I was like, "Oh, I wonder if I put this in there and ask it if it can give me the answer."
+ And it did.
+ I was like, "Well, we've got the answer.
+ Now we've got to find the reference."
+ And so then we went and googled the answers to find the books that it came from.
+ But then later I found out that you could just be like, "Hey, where do you pull this
+ information?
+ Can you give me the citations and it gave me the citations?"
+ But we spent two hours doing what have been done in like two, three minutes if we would have
+ known that ahead of time.
+ But so much of what you can do in this tool is still learning what is possible in it.
+ And so just getting in there and trying, when we're at the retreat somebody's like, "Well,
+ can it change the format of an image, can it upscale or downscale?"
+ And I don't know, ask it.
+ And so we asked it and it said, "No, I can't, but this is how you can do it in Photoshop."
+ And then it gave step by step instructions on how to open the image and Photoshop and change the
+ scaling and stuff of it.
+ And we looked in, it was like, "Oh, that's exactly how you do it.
+ That's exactly how I do this and there."
+ And so it's very accurate.
+ But you do have to QA everything.
+ But no, get in there and play with it.
+ You don't often hear that with new technology and stuff in business.
+ But this really is like new and it's moving so quickly, just go play with it and ask it questions
+ and have a conversation, have fun with it.
+ First steps, you would suggest the first person goes to at least a free account from chat
+ GBT.
+ The paid account is like 20 bucks a month or something like that.
+ 20 a month.
+ And you get better stuff, plus you could do images in the paid chat GBT.
+ There are multiple platforms out there.
+ You just mentioned a few little while ago.
+ But would you suggest the chat GBT is where they start?
+ I think so.
+ After their dev day, it's come so far.
+ Now you can do advanced data analysis.
+ You can do image generation.
+ You can actually on the mobile device.
+ You can download it onto your phone.
+ And you can have an audio conversation back and forth with it now on your phone.
+ And so instead of having the types of stuff in, you can hit the record and you can
+ just talk to it.
+ And then you submit that and it translates that and then it responds to you.
+ And it talks back to you.
+ You can choose the voice and everything with it.
+ It's pretty cool.
+ But there are other tools out there.
+ Some people like Claude, a little better, CLAUD, is the other tool.
+ Same price point if you wanted to pay version.
+ It's $20 a month also.
+ We see slightly cleaner responses in text from it.
+ It just kind of reads a little better sometimes.
+ But it doesn't have the image generation aspect in there yet.
+ I've not gotten in there.
+ So I don't know other things have changed.
+ But I know with chat GBT that advanced data analysis of being able to upload a file and have
+ it go through the file and analyze it.
+ You can upload a set of data from your business and have it analyzing and give you insights and
+ stuff like that.
+ So very powerful thing.
+ You can also upload an image and have it analyze that image and tell you what it is and explain
+ things to you or create images similar to it.
+ So again, just get in there and play with it.
+ But yeah, chat GBT is a great starting point.
+ What about how important is data for AI implementation?
+ What are some best practices for collecting and managing data?
+ Yeah, so it's got to be clean.
+ So I don't know how much has changed since the dev day.
+ But last time I checked it reads and understands Microsoft documents.
+ So the current version like doc doc X and stuff.
+ And so any current version of that or Excel or PowerPoint even you can upload those into it
+ and it natively can read and understand those file formats.
+ And so that's one way to make sure you're more successful with anything you provide it in
+ file format.
+ The other thing is like with spreadsheets, you have to keep that clean.
+ So you can't, if you upload spreadsheet with lots of tabs and lots of information on it and
+ there's a lot of missing information.
+ So there's missing inputs on different rows and columns and stuff like that.
+ It will run into issues.
+ And it will have to troubleshoot to try to overcome those all the time.
+ And so if you can provide it complete and clean data of only what it needs to do what you're
+ asking it to, you're going to be more successful with it.
+ Okay.
+ I think one of the things that I've enjoyed about this.
+ So we're not a company, you know, we teach leadership, we teach how to run a business, we teach
+ all this stuff, how to do processes.
+ But it's hilarious.
+ I would have loved to have had in the past where I had somebody who's like a very high detail
+ personality style, high sea personality style, who's working on something.
+ Medits out.
+ All my high seas out there know that when you're putting something together, you're putting
+ together facts.
+ You are putting together pieces of information that are very factual because your goal is to communicate
+ the facts of whatever it is.
+ There are big tobs of the past that I've had like a high sea working on something like maybe
+ it's going to be an email to a group of people or maybe it's going to be a process or something.
+ And then when I get it back, it's just like very incredibly sterile and factual.
+ I would have loved because at the time, there's so many tobs I've turned to somebody and
+ he said, hey, here's what I want you to do, lighten this up, make it a little bit funny.
+ You say that to a 99's say and they look at you like, are you on crack or something?
+ How are the world, I'm going to take this and make it.
+ My goal is to make it funny.
+ My goal is to get you the information that you need, right?
+ But you could literally load up like let's say you had somebody write up a process for something
+ or write up a letter that you're going to send out to clients or let's say you were sending
+ a end of the year celebration letter to clients or something like that.
+ You load that document up into chat GPT and then say, make this funny.
+ Make it shorter, make it longer, make it sound more professional.
+ And then you can breathe into your own information something like humor and it literally.
+ And I mean really well, like I said, the social media stuff that Charlotte put together,
+ they're all salivating and it took her like 30 seconds to put this information in and it came
+ out with like the greatest social media post where you like, oh my gosh, I want those
+ rolls.
+ But you can put stuff in there and then all of a sudden it just makes it funny and it lightens
+ up your, you know, the information that you're sharing where, you know, if you've got that
+ information and I think the thing I really want people to understand is is that you can
+ take current stuff that you have, like you're saying, you know, take this information
+ as data that you've already got plug in in and utilize AI on the stuff you've already written.
+ Sometimes you can get it to write all brand new stuff, you know, what you're going to have to
+ check the day lights out of it, but it's still going to be great.
+ But what other things can people be doing with their like their current content or something
+ that they're currently creating?
+ I think that's running with that idea not only with current content, but to get the content
+ output that you want that is in your voice and tone, you can feed it information.
+ So you could take a transcript of like this podcast and we could upload it and it could then
+ learn your voice and tone and then when it responds, it will respond closer and line to how
+ you talk and words you use and stuff like that.
+ So the more you feed it, the more unique the output is the more catered it is to you as a
+ person and so for small businesses, I think that's a huge benefit because you can put your expertise
+ and authority into it and have it help you create more content and expand things in your
+ own voice.
+ Yeah, I thought it was funny when you shared, you would not share that you guys put something
+ together and then you're like, okay, I make just this to Chris LaCardos voice and it
+ actually wrote it in my voice which is just like kind of fun and creep you at the same time.
+ Because I'm sure there's lots of weird things people can do with that but the ability
+ to take something that you've already done, you know, I'm assuming that you've got to have
+ a decent amount of data from your own voice of things that you've done or can it be a
+ small amount?
+ A lot with a small amount.
+ We took a two minute video recording of a client.
+ Yeah.
+ And we actually took the two minute transcript and uploaded it and it created an entire blog post
+ and a whole month worth of social media posts.
+ Off of that two minute transcript and it was like quotes and gave additional little scripts
+ to shoot additional little videos on it and it was pretty on par with how that client
+ spoke and stuff and that was off of a two minute video.
+ I know some of the things out there, there's tools like 11 labs that can clone and recreate
+ your voice and for a really high quality version of that, you need about 10 minutes of audio
+ recording for it to be able to recreate your voice and then it can speak and talk and you
+ know at the retreat we talked about it but there was a journalist who actually did that
+ and her voice recording was able to bypass chase the credit card companies initial voice authentication
+ security measure to then put her through to a real person for additional verification and stuff
+ like that.
+ So it's very accurate with that 10 minutes of input in how it recreates your voice and tone.
+ And so not only can you use a tool like Cheshipy to create the content side of it in your
+ voice and tone but then you could throw it into a tool like 11 labs where you clone your voice and
+ then when you bring those two together now you can not only is it writing in your voice but
+ you can have it talking in your voice too.
+ That is just so crazy.
+ That is insane.
+ A lot of people out there going, wait a second, I can get through Chase's what?
+ Right now?
+ No, they've already figured that out.
+ You're not getting through the gut that taken care.
+ Okay, so I'm a small business owner, I'm a small business leader, you know, I'm a customer
+ service leader or agent or something like that.
+ How can AI be used to improve like customer engagement, customer support?
+ I know we talked about some of the marketing stuff but what about other aspects like getting clients
+ engagement or trying to support them?
+ How can we use AI?
+ Yeah, I think from a customer service or response side, looking for like reviews, people leave
+ your reviews on Google or on other platforms that are really good best practice with that
+ stuff is the respond and give a response.
+ You could use chat, you could draft up a really good response for you or a team member could
+ do that.
+ If you're getting a lot of them and that's something a team member spends a lot of time on, they
+ could cut their time down drastically, leveraging it for that.
+ Or even an example of a medical example where they gave doctors tablets with it on it and
+ then they gave patients tablets or the patients got responses from the doctor and they were
+ not as impressed with a doctor's response as they were with the response that they read
+ the chat GPT or whatever tool they used gave.
+ So the AI's response had better bedside manner and was more comforting to the patients than
+ the doctor's responses and so not all of us are at high eyes and great communicators and stuff
+ like that.
+ For us who can't get a good or writing and stuff like that, it can give a really good response
+ to somebody.
+ Looking at it for things like that, don't respond to a bad review online immediately, give yourself
+ a day but then hey this is what happened and give it the information and chat GPT or
+ a cloud or whatever tool you're using.
+ Ask it to give a caring professional response to this review and give it input from you
+ and let it write that response and then review it and make sure it reads proper land stuff
+ and put that in.
+ It very well might be more compassionate and more customer friendly than you are and you're response
+ to a negative review.
+ So that's an example from a customer service engagement side that I kind of see that you know just
+ like you were talking about for you know making it more fun or more compassionate or whatever
+ just adjusting your tone and what you're putting out there and you get think about that you
+ know hey this is what we want to do for this blog post or this social media post you know how do we
+ make this fun or more engaging ask it that and have it give you input into it you know you can
+ draft what you want to say up feed it in there and be like hey we've got this this is what we want
+ to say but we want to say it in a friendleager way or a fun or way or a more compassionate way
+ and it will take what you've created and adjust it and so you can use that for that type of engagement
+ and to change stuff that you have already to make it more engaging.
+ Yeah and I just love the again if we go back to that high-sea personality style right or even
+ high-s personality style that may not be communicating the way they want to or they or maybe they
+ are maybe they're communicating exactly the way they want to if you just loaded it up with your voice
+ like you said you know put it on your phone say exactly the response that you want to have
+ and then look at it in writing and then just ask it a few things that's the big key here and I want
+ to pound this home because if like I did not look into AI at all I don't know how long we had you
+ guys you know we had you booked for six months, eight months, something long a long time no one that
+ you were going to come in and teach on AI and I'm like I'm not learning anything until Grant gets
+ here because I know Grant knows what the heck you're talking about so I want to learn it from Grant
+ and then when you get here and you start teaching this stuff I couldn't stay out none of us could
+ everybody like us the clients everybody is just like we were stuck in AI and just asking things
+ so like if you take your information and maybe you've got somebody who doesn't have the greatest
+ you know bedside manner and they're loading up some information just voice it in there this is the
+ response I want to give and then just say hey just this to be nicer you know maybe you want it adjusted to be
+ sarcastic whatever it is but plug it in and just read it and see what you think and the reason why I'm
+ saying this I'm not picking on the high sea I know how many high seas that will write something very
+ factual and feel great about it they're like no it literally speaks to the facts but then when you
+ adjust it for the high sea in a different tone they look at it and you know you're a very high sea they look
+ at it and go oh okay why can't see that that makes sense that makes sense how that sounds nicer but when
+ they're doing it when they're stuck in the factual mode you know that they're in that logistical aspect of it
+ they're not thinking fun funny sweet nice kind they're thinking facts and so you know let's speak to the
+ high D many times high D's unfortunately pride themselves on short answers it is ridiculous to be excited
+ that you give a one word answer that is not something to be happy about high D's that's not a good
+ that you know 95% of the time that's not okay you know sure there's there's a percentage of time
+ where it's okay but you have to consider the person you're talking to and so many times the one word
+ answer just confuses the living daylight out of somebody so if you need to give it answered us a buddy you
+ know some let's say somebody sends you a question you know one of your team members send you a
+ question plug the question in and go you know how do I give this type of answer and just you know super quick
+ 30 seconds boom you've got something send it you're done am I saying all that correctly is that
+ all sound pretty darn accurate it does it does and going to that high C aspect of you know we want all the
+ details you can take something and put it in there and be like hey can you analyze this and could you
+ tell me if I missed anything could you fill it where else could I build upon this to make it more thorough
+ and it will analyze whatever you put in there whether it's data and article on something a service
+ or whatever it is and it will look for gaps and it will go through what it knows and it will expand what
+ you've already created to fill in and make it even deeper and so for a high C like you're going to get
+ in there and you can be like oh okay go more detail on this and then oh go into more detail on this and
+ your one page document is now 20 pages long when you're done with it you might spend an hour or two
+ in there playing with it but you're going to have the most detailed document at the end of the day possible
+ which is such I'm so glad you brought this up because as we're talking about decency isn't
+ a guess not a guess and of course this this also applies to iZ and s is but what you just said
+ how many people you know for me this is what I do for a living so if I'm speaking to a high C
+ I know I teach communication I teach personality styles I'm going to give as much information then I'm
+ going to ask a ton of questions to make sure that I got all the information that this high C needs right
+ but most people on the planet don't think that way what a great opportunity for you if you if you've
+ done personality styles with your team folks if you haven't go to christlicker.com and go to the store
+ and get this done get the video do it it changes everything our goal is to win with communication
+ so if I'm communicating to a high C and I'm high D I S whatever I can plug the information in and I'll
+ level what you just said analyze this go deeper you know what holes are missing all that kind of
+ on stuff but if we go to the opposite side hey high C high S if you're communicating to an i or d
+ take this information and bullet point it yeah I will put this in bullet points so I can give this
+ and you could even do bullet points and sub bullet points you know so I can give this information to a
+ high D you know I've got a buddy of mine who is like a 4,000 C he's a 99 C in a 99 D but he's just so
+ technical and he's so so data driven and he gives me great like he'll send me an email and he's like okay
+ here's the short version and here's the high C version and he will give me the summary up top and then he'll
+ give me the 4 pages of information down below because he knows you know there are times that if he
+ because he can give an incredible amount of information so all good stuff but it's a lot and he knows
+ okay I can probably get christ to answer faster if I give him a sorry you know he's still gonna go
+ through all the long form information but giving it to me that way you know and me I'm an 88 S I'm an 88 S
+ and a 67 C I mean a 67 I like about a 50 D so for me that really speaks to me of going yes I can get the
+ quick summary I know where you're going and then I know that if I don't have enough information I can jump
+ down below and pull because he's got tons of it down below so I love that you just mentioned that
+ because folks you should be thinking how do I communicate this to this team member to this leader
+ to whoever the business owner in a way that's gonna speak in their personality style and crazy enough
+ now you've got to check this stuff but I believe you can even put in the DIS or C hey communicate
+ this to a high D personality style now keep in mind not everybody is just one personality style
+ but you could put it in and it will actually adjust it to links and all that kind of stuff correct
+ it does understand disc profiles so if you if you explain this is for a disc profile and this is what it is
+ kind of give it that detail it will it can adjust based on that and that going to that comment that you
+ made about you know taking it the other way and breaking it down into simpler terms it's really
+ great at summarizing stuff and pulling out and kind of like creating a cheat sheet of information based
+ on something I actually started using it to feed Google patents to that are very technical and put
+ me to sleep and was like hey can you pull out the key points of this in action items from us and
+ kind of highlight the things I need to know and it'll pull it out and then I tried it with more
+ and depth things and it fed it like an 80 page document and was like hey can you summarize it give me just
+ action items out of this and boom summary action items done and so very powerful that being able to
+ go through and pull stuff like that so maybe in your business you have large sets of data or
+ information booklets or whatever where you've got to go and pull something out of something and you
+ could upload this and be like hey I'm looking for this information from this document oh that's on page 32
+ of you know 400 or whatever and find that information and so you can kind of use it for that
+ go into that research side of stuff it's really good at that. One of the things that you know I've
+ talked about processes and I would really love to know other operational efficiencies that you can
+ think of but we've had companies that have come in and they've got like a 400 page you know processes
+ binder for people and it's like you've got to be kidding me that that's just insane and one of the
+ things that we've talked about is is like there is so much information that people are confused on how to
+ do your process so being able to take that process you can still keep a 400 page document if you
+ want to if you absolutely have to but if you loaded that thing up and you said you know obviously it wasn't
+ one process that's 400 pages but like all their different processes and you took one process out of time
+ and loaded that up and said summarize this you know with steps of how to do it most important information
+ all that kind of stuff and then read over it and then sat down what the people who are going to
+ execute those processes and ask the question does this make sense and you always go make adjustments
+ right if you get to like all this makes sense except for this step and this step great go back in this is where
+ the prompts come in adjust this piece here do explain this out a little bit further here whatever it is
+ but then instead of having a 400 page document maybe it's 40 right because it's operating in some
+ reason stuff right I love articles when I come across somewhere at the beginning of the article it's got
+ hey this is what we cover and then it's got like a one or two sentence summary of the key highlights from
+ these section of the document where you can go and read it and then you're like oh I want to know
+ more about this and you can go down to that section and so think of processes and SOPs in the same way
+ you could break it down where somebody just needed to little guidance over view of you know what we do here
+ you could have that summary at the top and then you could have that jump down be like oh go
+ to section whatever for you know step by step technical details so you know user friendliness you know you can't
+ you can't hand it everybody a 400 page process manual they're going to fall asleep and so you need to
+ make it it's just like with what we do on the internet you know work at a marketing company it's all about
+ the user it's getting the user to the site it's answering their question they're intent immediately so they
+ get what they want maybe they stay longer and so think about think about whatever you're making for your
+ business from a user standpoint is everybody again able to read this and comprehend it and understand
+ the intent of the document and it might be different for different people and how they read and understand
+ that intent high sea and a high eye are going to look at that completely different the sea is going to
+ dig into all that content the eyes can be like huh it's like it's like that quick to where
+ three sentence summary and key action items as a top fold and then go and all the detail and that's one
+ way of breaking something complex like that down we've been playing with SOPs and processes and stuff a
+ little bit and I like that idea even with the content for our clients we're looking at ways we can
+ implement some of this stuff where it's you know we got to get the intent and we got to get you the
+ answer immediately because that's what you're looking for you want that immediate answer there's
+ this instinct gratification nowadays where they don't want to have to read through 30 pages of stuff to get
+ to the recipe on a website you know it's like I don't care about the history of the recipe I don't care
+ just what's the ingredients what are the steps I need to take and so well that's another friendly
+ yeah that's another great point and just as I'm thinking about this folks if we want questions we
+ want to know what you want to hear we want to know what you want to understand I'm sitting
+ or thinking as we're talking through this and you're mentioning SOPs standard operating procedures you know
+ these it's process this is the way we do something so even if you hear something like a you know
+ SOP and it doesn't make sense just ask the question but anything and what we're talking about today
+ podcast at christlickerto.com where you're like man we need this information I would love to know
+ you know maybe we do another episode if people have a bunch of questions for you grant I would love
+ to know what questions you guys have on AI because I feel like you know as we're talking through this like
+ I remember sitting there and hearing this stuff going I can do what like I remember it being so daunting
+ as we started and like within a couple of hours it was just like oh my gosh this is so easy so
+ as people are listening to this my concern is that a bunch of people are out there going
+ I don't even know what to do it's literally as easy as what we're saying jump in choppy cheap cheap
+ I can't speak English so that's probably cheap cheap cheap cheap cheap cheap cheap just play around
+ with stuff load something up research something you know just ask it what it can do in a certain area
+ whatever it is and just get going but currently the uses are just endless you know if you wanted to
+ write some copy for something it's just amazing how many different things is there other operational
+ efficiencies that you could think of that we haven't covered I'm sure there is I'll stop on my
+ head I would I would say go through your processes and operations and look at what you could improve
+ you know do you have processes that take a lot of time do you have processes that aren't as easy
+ to follow look for things and evaluate your business and what you're currently doing not what you could
+ do but what you're already doing and look for ways that you could leverage this to save you time we
+ have cut our content team we do order forms we do a content outline for our writer and so we give them
+ an outline with hey this is what we want to cover these are the subsections that we need to cover
+ this is what needs to go into them and that could take you know a team member anywhere from 30 minutes to
+ 60 minutes to go look and research and say okay this topic covers this this is what we need to cover to
+ make sure it's thorough and in detail let's look at the competition make sure we're not missing anything
+ you know our competitor covers too that we could add in there we've started using chat GPT to assist
+ without lining and it's cut 15 to 20 minutes off of the time per outline step and so when you're looking
+ at you know doing hundreds of pages a content a month cutting you know even 10 to 15 minutes on the
+ low end off means we now have time to go work on more important things not the content's not important
+ and this stuff isn't critical but this process is allowed us to become much more efficient
+ and actually get more detailed outlines and now we're able to go work on other things for our clients
+ well yeah I mean you know if I'm one of your clients I'm paying for you to market for me
+ what I rather you be able to say 15 minutes and work on something else for me or what I rather you
+ know I want you to do all of the heavy lifting on this thing no I want I want to get the most out of
+ you I possibly can right and so just that thought of being and I remember you talked about the
+ self that and you may not want to mention what it is but there was a piece that you had worked on that would normally
+ take you like four hours and it just cut it down dramatically and allowed you to get on to other things
+ as well so just that thought process of you know can't you know even I don't know if it would work but if you
+ took your let's go back to the detail bay I've got somebody who's detailing a car and I write down
+ the processes of how they're supposed to do it and I just loaded up and asked the question can you make this
+ process faster if the answer is no the answer is no but what if it found two steps that it could
+ adjust to pick up you know time on that team member well now you're picking up not only are you
+ being able to get more done with the dollar you spend on that team member but you're also picking
+ opportunity so they get something done faster and then they get to move on to the next paying thing that brings
+ money in the door so just you know be wild with it just just think as whatever you possibly can
+ chuck it in there and see what it can come up it's a risk free area to play in your your theorizing
+ and ideating and stuff and here you're not actually going and okay we're going to do this process
+ in our business right now and see if this works yeah you're you're working through it in like a
+ playground time to scenario sandbox scenario where you can fine tune and come up with the process and then
+ it's like okay hey this is legit and this works let's okay hey team let's review this and look through it
+ okay let's walk through this does this if this works all right do we want to implement this yes
+ implement there you go 15 minutes across the task that is done 100 times a month is a lot of time to
+ do other productive things so powerful all right now the the tough question here what are some
+ ethical considerations that small business leaders should be aware of when using AI and their operations
+ particularly like in in data privacy or you know bias mitigation yeah so by default
+ the model isn't biased but it's trained on content from the internet and as we all know content on
+ the internet very much can be biased and so it's output can have bias in it so you have to be on the
+ look out for that as a starting point you also have to you know we mentioned it a couple times you've got
+ to review and QA in fact check everything this outputs because it can't hallucinate and make things up
+ it also doesn't have data past April 2023 as of this recording that'll change but you want to review everything
+ in QA everything you wouldn't there's been examples of people using this and letting
+ I forget what publication it was but a major public journalist publication let two or three
+ writers go and was using AI to replace them and they took the content and they published it it had
+ misinformation and it in accurate facts and it they had to pull the content down and reevaluate the whole process
+ and so be careful then they have to rehire back people there that was a there's another one where they
+ let go their chat operators and replaced it with an AI chat bot and it started giving misinformation
+ out they got them in trouble and they had to act that and rehire all their customer service people
+ and so this is a tool to boost your team not to replace your team I think that's the biggest key here is
+ there's a lot of headlines and a lot of information out there already on AI that is only part of the
+ information being told and so you see all the headlines of AI's replacing people or AI's going to
+ dominate and take over the world and all this stuff that's just not the case is not where this is at
+ it's not that technology yet and so it's not going to replace the team member make it replace a task potentially
+ and speed that team member up and let them work on more important things you is a business owner if you could
+ save an hour or two a week using AI so you could do other business owner stuff would you not take advantage of that
+ yeah but continuing on that ethical thing the other side of that is what you put into it and we need to
+ be careful with this because right now the free and the paid version by default the information you put in
+ is shared with the company and can be used in training the model and so if you don't go into
+ settings and turn off allow my data to be used in training the model or whatever the setting is
+ then your information is being put out there and could show up as a response potentially in this
+ down the road now the other thing to that is when you turn that off you lose your chat history so
+ you can turn it off for a chat session and then turn it back on for the next one but you you lose that now
+ on that note though that data even when you get that turned off it still stored on their database is for
+ 30 days and that's for safety to make sure people aren't using it in a nothing but ways one of the
+ big things they're worried about is copyright stuff you actually I've actually tried to get it to
+ generate an image in the style of somebody and they've since put in blocks now where you can't reference
+ a specific artist so it can't mimic their design styles and stuff like that because that's a copy right
+ in friendiable thing and so they're adding guardrails and stuff and this is just in a couple of weeks since
+ the retreat because prior to that you could ask it to write in anybody's persona or style or create
+ images in this person's art style and it would do that and so that's a big thing they're working on
+ is adding these guardrails to prevent misuse of it and to educate the public on what is right and wrong because
+ not all of us are gonna really understand all of that. Yeah it comes to copyright stuff some of
+ that gets pretty deep in in detail. The other side of misinformation is just misinformation.
+ There's a lot of concern with the upcoming election and the amount of misinformation you could create
+ was a tool like this. There's people creating thousands of pages and putting them putting websites up with
+ thousands of pages and they're just crawling competitor sites and then saying hey, recreate this and
+ you know very unethical just and it's nothing new this has been going on before it's just now it's a
+ little bit easier basically. So there's always it comes down to that you know is this right or is this
+ wrong kind of concept but that privacy point I think you know you don't want to put any PII information.
+ So personal identifiable information. So your full name unless you're the face of a business in
+ your full name and your phone number and email are on your bio page for contact information but
+ if you've got a personal one you wouldn't want to put your personal phone number in there your personal
+ email and your social security number medical information anything like that and from a business standpoint
+ you'd be thinking about you know you don't want to put employees information like that anything that
+ would be in HR item you want to avoid inputting that into the system financial information is another example
+ you know you may not want to feed your financial information into the tool to analyze and give you insights
+ others might not be so worried about that information so that that comes down to kind of your own personal
+ you know concerns and ethical use of information. So but there's nothing stopping you from you know
+ on the other side like you could put information in there and upload info on your employees or something
+ but do you have permission to do that and stuff and so that's where that ethical kind of thing
+ comes into play there are ways like if you got IT and stuff at your business you could get like access to the
+ API and create your own kind of instance of chat GPT where it's more private and it's not the same set up
+ they also are offering an enterprise model for larger companies and they're working on a business version
+ that's supposed to be private and stuff for smaller businesses and stuff like that but that is not been
+ released yet because one of the biggest concerns is you know what are you doing with the information I'm putting into here
+ you know business you want to use it a lot but you don't want them taking all your information and you know that
+ being shared with the world in your model. So if you don't yeah just to summarize if you don't want your
+ information out there for other people to pull off of it then you go in and change the setting of you know
+ don't save my chat or don't share my chat the key is is that when you're done with that chat the best thing to
+ do would be to export that back into like a word doc you know you can so you can go into a session
+ with your personal information that you've uploaded that's not going to go out for the world to use
+ but you lose the chat when you're done so if you export it put in like a word doc close out that
+ chat then you come back tomorrow you can re-upload the new document back in work on it again and that way
+ you're not losing it but hopefully in the future we won't have to worry about that as what you're saying
+ yeah with the business model we're hoping that that changes and we don't have to worry about that but yeah
+ until then if you talk all that off and you do your session and then you copy all that and put it into
+ a document to save for later you have that and you can even continue that conversation later so if you copy and
+ paste all that into a document and now you don't have that chat session you can create a new one
+ attach that file and be like hey I want to continue building off of the information in this document
+ can you read and analyze this and let me know that you understand what's in it and it will respond
+ with yes and then you can be okay this is what I want to do next and you can continue that conversation
+ like that and keep an offline record of it yeah and then another piece that you mentioned there is just the
+ I think there's you know there's three sides there's those people that are out there that are going to be
+ unethical that are they're already trying to use this in ways to gain an advantage make money do whatever
+ there's folks that are oblivious they don't know they don't have a clue that they're doing anything wrong
+ they're just out there trying to figure out how to use this thing and then there's probably folks that
+ are thinking that what they're doing is okay that may be crawling somebody else's site and pulling
+ information and just you know going surely this is fine because it's public stuff either way what you
+ want as a business leader or a business owner is you want to make sure that you understand the processes
+ of what your team members are doing you want to make sure that you don't have the person who's just
+ blatantly going out and stealing stuff but you also want to make sure you don't have the innocent
+ person who doesn't understand that it's bad or wrong to go out and pull information from somebody else's
+ stuff or whatever so just make sure that you've got clear processes on how you're going to use this
+ inside of your business inside of your team because the last thing you want to do is be doing something
+ unethical that's going to come back and just destroy you. We're working on kind of that usage privacy
+ policy and usage of AI right now that's the big thing I'm working on because you know we've got quite
+ a few employees and then also looking at the training side of it of we want the team to use this and use these
+ tools we want to become more efficient with them but some people are comfortable for some people
+ are afraid of it outright scares them because you know always this thing going to take my job and
+ stuff like that and so training your team and teaching them you know hey we want you to use this
+ we want it to boost you and your productivity and capability it's not to replace you and you know here's
+ how you use it this is the way to use it you know these are examples of the right and the wrong
+ having training and you really do need to start at that base level of the foundations and the basics
+ because not everybody is going to be on the same level some people are going to be all about it all
+ trying to do all kinds of crazy things and other people are going to be hesitant to type that
+ first question into it. Yeah definitely so what are some you know ways to measure return on investment
+ when it comes to like an AI initiative what are some like key performance indicators? I think time
+ is the biggest one you know as you're doing this it's you know that you mentioned earlier the thing
+ I might not want to talk about but it was an audit that I did for a website to analyze the content on it
+ and look for gaps in where we could fill in the content and normally that would take you know two
+ three four five hours to go do the entire process all the way through and then analyze and pull the data
+ and stuff and it literally did it in like 15 20 minutes I then spent the next half an hour to hour
+ kind of revealing it and actually spot checking it making sure what it gave me was accurate and at
+ the end of the day it was accurate and I was like well I just saved three hours time today what's next and so
+ you know that's huge for me you know I've got a busy schedule and so if I could take something and
+ you know leverage AI to analyze the data quicker than I would going in using spreadsheet
+ calculations and stuff and you know reviewing things then I've got lots of other important things to
+ work on and so that's huge ROI when you're looking at the labor saved the time saved that's the biggest
+ way to really view this and analyze this. The only other thing I could think of would be looking at like
+ okay we used it to do this what's the impact of this you know did we edit our sales copy using the
+ tool and what was the impact of that sales page afterwards did it increase I would see more sales you
+ look at that kind of output and impact of it but at the at the core it's what we've been looking at is how
+ do we save the team time how do we make them more efficient how do we free them up on the the small
+ tedious tasks that are time consuming but required so they can work on more bigger important things
+ and at the base that's time yeah and I think Erin mentioned it multiple times Erin was that the
+ at the event where he said hey listen don't be you know if you're a team member don't be afraid of this
+ thing like you mentioned don't be afraid of this thing replacing you make yourself more valuable to the
+ company don't be afraid of you know well if I shave off a couple hours of my day then what do I do next
+ oh my trust me there's more to do there's more that you know you could be utilized it but if you
+ make yourself more valuable to me as a business owner if I see that you're knocking things out and they're great
+ you've you've done your QA you know you've saved some time and I can move on to bigger things with you
+ that makes you more valuable to me you know but at the same time as a business leader or business owner
+ you need to be stepping up going let me learn this thing or or find somebody you know Erin West is our
+ our guy and our business who is just really going ballistic on all of this setting up stuff for our company
+ you know helping other team members to be using AI and is going to be coming up with policies and
+ teachings and all that kind of stuff you and Erin have worked together I know he's you know
+ rakture brand like crazy as well but we have somebody who just loves this and is setting it up for our
+ business right so find somebody or be that person you know that gets in and starts to discover
+ how can I utilize this with my team I was sitting there you know at our office at our events pace as
+ we were going through this and sending stuff back to our farm. Coming hey look what I just did go
+ go use this you know get together with Dakota and find a way to go use this for social media or
+ something like that just you know looking at a different business and sending stuff to other team
+ members and going hey you guys jump in and use this figure this out make this happen here stuff that you
+ can do so you know as a leader as a business owner as a team member I don't care what your role is you know
+ parents how can you start utilizing this again be very super cautious but how do you can you use this to
+ help your kids out so this question I don't know if this question's got a good answer to it but are
+ their trends that are showing up in the future that leaders need to keep an eye on in the next coming year so
+ change. This is changing so fast it's unlike anything that has come before it you think the internet
+ and mobile and computers and you know all the major technological advancements this is come and hit
+ advanced and changed so fast this year alone it is it is breathtaking and neck breaking at the same time
+ it's fast a week in AI is like three months in the business world when you think about information
+ and change it is just constant like we did the we did the retreat and the following week they did
+ their dev day and everything changed they added all kinds of stuff they put it all into a single chat session
+ and like everything just changed overnight like that and leading up to the retreat I had to redo
+ a video walk through I think like five six times because it kept changing and the three months
+ leading up to the retreat when I was trying to record the video there's new tools coming out every day
+ the big players are coming out with new things we still haven't seen Google's final version of
+ whatever they're releasing they've been releasing bits and pieces of different things and giving us little
+ pieces of what they've got but my expectations are when they finally come out and release their equivalent
+ to chat GPT which I believe they're calling Gemini which is a multimodal thing that will be able to do
+ data analysis and image generation and content generation and stuff I think everything's going to yet
+ again change overnight you know they could very well change the world by changing how search results work
+ with AI responses it's that's the only trend I could I could put you on to is that this stuff is
+ advancing and changing rapidly if you thought something and January was cool now it's mind blowing like
+ just the changes and advancements to any little aspect of it I mean in January you could put in and
+ I think the context window of what chat GPT could handle was like I want to say it was 16,000 or 32,000
+ words or something like that roughly and now you can basically put a 300 it's got the context window of
+ understanding of the equivalent of a 300 page novel that you're going to have conversation with it about and so
+ it's massively the capacity has grown tremendously the databases I mean GPT 3.5 was what was released
+ initially and then GPT 4 came out and the example there was for the legal industry and this works
+ with like I think it was biology or something it could pass the bar exam it was in the 10th
+ percentile with 3.5 when chat GPT 4 came out that bigger model it was passing it in like 90th
+ percentile and so it was the same with a lot of other educational areas the wealth of knowledge and
+ understanding was just massive I don't have the specific calculations but it 3.5 to 4 would be like
+ putting a marble next to a beach ball like in size of of information within it and I know there's been
+ talk of improving that and you know is there gonna be a GPT 5 that's even bigger or you know can we
+ break this down and fine tune it and so you know we still don't know what this tool is fully capable of
+ like every week we're like oh hey we can do this with this like the last week I didn't know I could do
+ that with it like there's no single instruction manual to it it's get in there and try it see what it
+ can do but yeah it is just changing so fast and there's so many I think the one okay so here's a trend
+ you're gonna see more of over the next year regulation yeah it's a big topic the ethical concerns
+ and misuse of these tools and the access that is gonna be given to these tools is a huge concern
+ and there's regulation is a big thing amongst the planet right now they just did a big meeting over in
+ Europe with representatives from all the major countries all the major AI companies Amazon Facebook
+ Chatchy PT Microsoft Cloud they were all there Google and so there's gonna be regulation I know here
+ in California the governor just passed the thing to get government approved state approved training for AI
+ for the workforce and for the general public they should have reliable vetted training on this stuff
+ Biden passed I believe in executive order a couple weeks ago to implement regulation and monitor
+ and do all that stuff so it is coming and they're doing more and more and I think that's gonna be
+ a trend we're gonna see more guidance and more guardrails and safety measures get put in place to prevent that
+ unethical use to prevent the misinformation type stuff which is good I mean you know yeah we do need that
+ I mean it does have such bad potential I mean there's such great stuff for all the the ethical people out there
+ who want to use this but then there's a whole bunch of crappy stuff too are there any good case studies
+ or examples of case studies of small businesses that have successfully implemented like an AI solution
+ I don't have anything off the top of my head we talked about a few things like the content outlines
+ saving 15 20 minutes you know doing you know building out SOPs and processes and evaluating them and
+ stuff like that a lot of the case studies and stuff out there right now are enterprise level stuff
+ it's where they're implementing their own AI systems and stuff like that and that technology is just
+ out of our reach a single GPU a single graphics card to process AI actions and stuff is like $10,000
+ plus dollars and so for a small business is it's just not feasible to bring and build your own
+ in-house AI that can do stuff and that's why you know chat GPT and cloud and these these tools like this
+ it opens that up to us you know we don't have to build that infrastructure and stuff so getting in there and
+ using it I think looking in doing searches for advanced data analysis with chat GPT you'll see
+ lots of use cases and stuff in case studies of training on how to use that I don't remember the
+ the course but Coursera's got a course on advanced data analysis with chat GPT that's really great
+ if you want to learn how to use it like that it's it's still early I mean this is this is we're still in the
+ very early infancy stages of this stuff it's been around forever though so you know don't don't think this is
+ like brand new it's just we now have easy access to this AI has been around since the 50s when the
+ touring test was developed and then you know it's in your car now for safety measures the first
+ driver's as car was not in the 2000s it was 80 something if I remember correct and so
+ it was in the Xbox in 2005 or 2010 when you get connects and it follows your body motions and
+ translates that and makes it into in game motions and stuff like that so it's not a brand new
+ technology it's just it's now accessible to the general public and I think that's that's huge for
+ small business because you have access to something that large companies have had access to and have
+ been playing with these enterprise companies have this stuff built into the foundations now a lot of them don't
+ I was at a conference in August and a lot of them are just like how do we do this you know so
+ everybody's in the same boat just some degree there's some companies that are far ahead and fully AI
+ on board with everything but for the most part the general public and business as a whole
+ word at this point of what can we do with it how do we do it you know what how do we learn
+ and so you're not you're not behind the curve right now get in there and play with it figure out
+ what time you're advanced technology will advance so what are some common challenges or pitfalls that
+ small businesses need to be aware of when adopting AI and how can they avoid them
+ I think we talked about a few of them you know the the fact that can hallucinate the fact that you
+ have to keep it so kind of what you mean by hallucinate is sometimes so it's it doesn't like
+ holes and so if it doesn't have information on something it can create information is basically what
+ you're saying yeah previous to April 23 if you asked that a question and the information was
+ literally only in May of 23 then it's going to create something that's what you mean by hallucination
+ yes what'll happen is if it's past it's cut off point it's got this capacity to hallucinate and
+ just straight make something up the other option that you'll get is it won't just make something up and
+ it'll say hey I don't have this information my model cuts off this is past my date now with
+ Jackie BT you do have the ability to be like okay can you search the internet for current information on
+ this topic oh well and so with the new model that's all built in it's not a separate thing and so
+ you can search for current news and it basically goes and does a search for whatever the topic is
+ and pulls information from the first couple websites so again going back to biases and in a correct
+ information in fact checking you know this isn't going to replace your team member concept it's going to
+ boost them you still need that expert you still need that team member who understands this topic and
+ what they're doing because they've got to go back and QA and review this and they know this stuff and
+ so they can do the fact checking and know where to look to find this stuff if you think that it can
+ do what your team member doesn't you're going to let them go well if you don't know what they were
+ doing you don't have their knowledge and you now have to go QA this how's that going to go right and so
+ that would be that would be you know the biggest thing is you know a best practice is fact check
+ and QA everything that comes through grammar and spelling and facts and stats and all of that
+ is a best practice it's a must yeah so that's just thinking literally all right is there anything
+ future wise future outlook wise for AI and small businesses that people can prepare for I know
+ like you answered this decently but I don't know if there's anything that we're missing
+ changes obviously the biggest thing but is there anything else that's coming in the future that we can
+ prepare for the AI itself training learn you have to learn this stuff you're gonna you can't ignore it don't
+ ignore it don't think it's a passing fate sad because it's not like I just mentioned the AI the first
+ mission of it's back in 1950 and there's been tons and tons of stuff since then and so it's here it's
+ not going anywhere this isn't a new new thing that's gonna hit the media and be all big and popular and
+ just appear in a month or two it's it's not going anywhere and so training not just you as the
+ business owner but your staff and employees like you need to learn this stuff because it's not going anywhere
+ they expected to impact a lot of areas over the coming next five years you can see a lot of
+ change a lot of change and so get in there find some courses for Sarah's got courses open AI who is the
+ creator chat GPT has a course on chat GPT and how to use it that is probably a good starting point for
+ somebody let's not very experienced you know I mentioned that advanced data analysis using chat GPT one
+ for more and depth usage of it I think that's the biggest thing training and education I remember I think it's
+ 2001 when we were moving to putting up a website to sell event tickets and stuff like that and I remember
+ back then going guys this isn't gonna work you know we got what is it 14k a well dial up or something
+ like that at the time but I remember thinking nobody's gonna we need to stick with the phones people are
+ gonna call in this is and I came from each trade so I came from each trade in the in the early 90s
+ you know when we moved to phone trades and all that kind of stuff and that was just so far out there
+ but I remember thinking but the internet's so stink and slow nobody's gonna use this this is going to
+ be a waste of time and we had a bunch of us you were involved a bunch of us that were setting around
+ just talking about things that we all back in those days went this is it gonna happen what you just said is
+ so powerful for everybody listening this is not going away this is only gonna advance if you are not
+ getting on board with this if you're not you know this is one of those things and I even hate that
+ I waited until you came and taught this but I trust you and so I wanted the information from you but still
+ it's like well that's six months we lost you know out on that we could have at least been playing with it
+ and testing it so folks you got to understand just jump in this is all you gotta do you know just jump in
+ and play with it and see what happens and I think what you will discover is that this is going to be a
+ fantastic tool for you, your team, your company, your family to use to advance what you're doing.
+ Last thing here and we talked about your your fun new title at the beginning of next level prompt
+ engineer this is actually an important piece to be where you are understanding what you understand
+ is actually very important piece explain why prompts or prompting is so important to AI.
+ It's a new thing and so communicating with this is like communicating with a small child
+ you have to explain things and make sure it understands things and the way you talk to it and the way
+ you ask it to respond all impacts it there's actually a fun concept that if you're polite to it it
+ is better responses because you treat it like you're talking to an assistant or another person you know
+ it's a treat it like you're talking to another human being and be polite don't be rude because
+ it could then take and put subtle things in there based on how you're talking with it
+ but understanding the prompting and getting more into depth and taking some training on it will give you
+ more advanced ways of communicating with it ways of asking it to do things to perform actions
+ the easiest thing to start with is don't ask it to do too much
+ treat it like a small child and you'll be you'll be good to start with and then if you want to get
+ more advanced go look up prompting training and stuff there's a website that's got free resources on it there's
+ tons of courses out there there's the one I took and it's that idea that you wouldn't be a high
+ sea and unload three pages worth information on a three year old you would give them a sentence
+ make sure they understood it and then build on that when you break complex topics up and have that
+ conversation you get more detailed results because what I've found is when you communicate with it
+ and you give it a lot it tries to respond to a lot and so it doesn't go into depth fun a lot
+ and so you get a slightly more general response but if you took that and you broke it up into
+ dozen different pieces and you asked for each one individually your one page of information that it
+ gives you doing it all at once is now going to turn into four five pages of information
+ and so you just get far more detail and so the ability to have that conversation with it you know
+ if you give it a very basic generic request it's going to give you a quick generic response if you add
+ detail into there like you know hey I need a blog post on you know detailing cars okay I'm going
+ to give you a blog post not detailing cars if okay I need a blog post not detailing
+ collectable classic cars from the 50s now it's going to get a little more detail and it's going to go
+ on a more detail because you've given it just a little bit of extra information and that's going to go
+ the same when you're doing stuff you know hey this is my process well if you just give it a one
+ sense and staying about your process it's going to build on that and give you your response but if you
+ fed it your page is long process and said this is my process can you analyze it and tell me the
+ holes in it now it's going to give you more and so that idea of it's an assistant it really is it's a
+ data scientist it's a writer it's a it's a biologist it's an astronomer it's a physicist it's
+ whatever you are it can be your counterpart it has access to a massive database of information
+ and so you can you can role play and bounce concepts and conversations you know hey I've got this tough
+ customer that I'm trying to respond to this is what they said this is my response oh well I might
+ respond this way so sales training customer communication training whatever you know for lawyers it was
+ you know bounce your arguments and rebuttals you know you could you could role play back and forth with it
+ to come up with that best response so much good information gosh it's so good such a great process so
+ here's the deal are you tired of trying day in and day out to make your business successful
+ and feeling like it's growth and survival rests on your shoulders do you wish you had team members
+ who worked better together and took more ownership and responsibility for their jobs do you
+ question if you're focusing on the right things to grow your business do you wish that AI would just come
+ and solve everything for you then our next level leadership live event is the place to take a step
+ back and get perspective what if I told you the key to solving your biggest work problems and
+ growing your business in a better way is hiding and playing sight every day and they have names
+ personality styles and gifts and talents that's right it's your people it's your team the question is this
+ what's holding them back solving this problem is the job of great leaders so join us for the
+ three day next of a leadership live event where hundreds of business leaders have navigated the
+ challenges of leadership together you'll walk away with practical learnings and tools and strategies
+ to unlock the hidden potential inside your team and right now you save $500 off every ticket you buy
+ but that ends very soon so go to christicardle.com/events right now to register that's christicardle.com/events
+ and save hundreds off your ticket purchase folks we will see you in April and Grant thank you so
+ stinkin much brother this is so good grant brought thank you for being on the show thank you for sharing
+ all of this thank you for having me man it's so good and folks I am dead serious podcast at christicardle.com
+ send us your questions if you got more stuff you want no more stuff then we will get those questions answered
+ but i think my my favorite comment from Grant today is this ain't going away what he said
+ to a little bit more eloquently than that but this isn't going away folks jump in get on board get this
+ work and get this operating for you and your team but folks that's all the time we have for today
+ I hope this information has helped you as always you want you to take this information change your
+ leadership change your business change your life and join us on the next episode
+ (upbeat music)
+ [BLANK_AUDIO]

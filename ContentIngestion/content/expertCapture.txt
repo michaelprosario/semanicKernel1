@@ -1,0 +1,437 @@
+good morning everyone or good afternoon
+depending on where you are thank you for
+joining today's webinar today EAC and
+PTC are coming together we have Dmitriy
+a PTC Technical Specialist and we're
+gonna be talking about before you expert
+capture it's a fantastic tool that's
+part of the v4 e a family that can
+really help preserve the manufacturing
+skill set with the help of AR as people
+are coming and going from a company and
+need training Dmitriy I'll show you more
+so I'm just going to do a brief
+introduction to EAC Before we jump into
+things some of you may not know us we
+About Us
+are a product of element solutions
+company dedicated to transforming the
+way companies design manufacture connect
+to and service their products we were
+Our History
+founded in 1996 primarily offering
+engineering and analysis services and
+then as we expanded our portfolio to
+really include everything a company
+needs to design develop manufacture
+service and support products we became
+one of the leading partners of PTC
+bringing their technologies to the
+market and also offer services we become
+experts in over 22 areas of product
+development they're really kind of
+address all the needs and the tasks that
+you the people on this webinar do day in
+and day out trying to get things to
+market be as profitable as possible make
+sure that you're capturing data and you
+know working as smart as you possibly
+can we more than 75 professionals and
+have locations throughout the country
+now I mentioned that we started as an
+Our Services
+engineering and design firm and we've
+expanded what we offer to really bring
+bring you everything you might need from
+start to finish when coming up with an
+idea bringing it to market servicing all
+those things that includes engineering
+services so if you need engineering
+design help Effie a CFD simulation help
+we have engineers and designers on staff
+that can like add us work as an
+extension of your team or even work as
+your team if you don't have an in-house
+team we also have a training group that
+can provide on-site mentoring and
+training
+allow you to bring your people to any of
+our training centers throughout the US
+to get trained up on the technology or
+the ideas that we help bring the market
+and then we have product development
+consulting and a few other services like
+implementation services if you get a
+software and need help installing it or
+you'd like to have someone on our team
+act as your admin we have teams for that
+to make sure that everything is always
+installed and running as smoothly as
+possible and then finally you'll see
+that software piece in the circle that's
+the piece of kind of encompasses our
+partnership with PTC and why Dimitri's
+on the call today we work very closely
+with them as one of their leading
+partners to bring things like creo for
+CAD software of eforea for AR the thing
+works suite for Internet of Things
+connectivity and industrial I of T and
+windchill for smart connection
+operations PLM PDM kind of bringing all
+of your data sources together and we are
+proud to bring those to market we think
+they are the the leading tool set from
+kind of cradle to grave for product
+development companies whether you are
+coming up with an idea managing data
+connecting to your products and your
+customers servicing those products and
+training your staff it's all here
+we also offer some hardware and we are
+Our Hardware
+the commercial partner for form labs
+desktop 3d printers so if you are in the
+market for incredibly high quality 3d
+printers for your prototypes please
+reach out to us we have specialists
+dedicated to knowing the ins and outs
+and perfect use cases for the formalised
+printers these start at under $4,000
+everything you need to start printing so
+it's professional level like fifty
+hundred thousand dollar print quality
+from machines and start at four grand
+so if that's something you're interested
+in feel free to reach out after the
+presentation without any further ado at
+Demetri if you want to take it away and
+tell us a little more about you forty
+expert capture so we'll begin today just
+Expert Capture
+by going through some slides so you guys
+understand you know what are some of the
+challenges customers are faced
+when they're going into this space and
+how expert capture and its capabilities
+will help solve those challenges then
+we'll go ahead and go through a
+demonstration where we walk you through
+the whole process first stage will be
+going through and following an expert
+capturing a session and then we'll go in
+through the editor phase and finally
+we'll show an end-user following those
+instructions we created and so without
+further ado we will begin so as I said
+there are a lot of challenges here so
+one of them could be that maybe there
+are no pre-existing assets to create
+these step-by-step instructions also
+work in training instructions might
+either be non-existent or be of poor
+quality and then relevant CAD data or
+documented procedures are unavailable
+and then there's also highly regulated
+standards for safety as well as
+compliance and so expert capture is the
+fastest and easiest way to create a
+powerful air enabled instructions that
+do empower frontline workers so provides
+up-to-date information on how to
+successfully perform tasks when and
+where workers need it most in the real
+work you know in the real world context
+of their daily work environment creating
+these high-value AR content really has
+never been faster and easier and so what
+are the capabilities of expert capture
+so you'll have accelerated authoring and
+publishing for step-by-step instructions
+without the need for CAD data or
+preexisting assets or development
+efforts you'll be able to save time with
+easy to use templates that make content
+creation and publishing easy and
+convenient and then you'll be able to
+connect steps in a procedure to specific
+objects and location so location
+awareness capabilities of microsoft
+hololens can be leveraged to connect
+each step of a procedure to specific
+objects and locations so that providing
+safe and accurate guidance for those
+frontline workers and then empower those
+frontline workers across a variety of
+supported devices so provided air guided
+expertise when and where it's needed
+whether it's through hands-free
+wearables or mobile devices across the
+enterprise
+Demonstration
+and so at this point we will jump into
+the demonstration perfect I don't see
+any questions in the queue so feel free
+to keep rolling all right so as I
+mentioned you know this demonstration
+we'll start off by acting as the expert
+so we're using the solution to create
+and share a multi-step lab procedure to
+prepare and analyze a sample using a
+mass spectrometer so here our expert
+she'll be wearing a real wear device
+loaded with the beforee expert capture
+app to record the required steps in the
+procedure so acting as the expert she'll
+start out by taking the calibration
+samples box out of the refrigerator
+we'll take a photo of the box and view
+it in preview mode by using the voice
+commands to take photo in preview and so
+the expert can easily tag bookmarks
+within a step to highlight critical
+moments maybe to be further explained or
+elaborated upon later in the refinement
+process and so as the expert is
+hands-free you'll see that everything is
+done through these voice commands and so
+the expert can also add audio
+instructions to go along with the visual
+instructions we are creating so these
+wearable devices will understand whether
+you're inputting a voice command or
+whether you're just you know overlaying
+some audio instructions but here in this
+case we're happy so we'll say next step
+and for step three here we'll go over at
+our pipettor station locate our pipe
+header and set it to 500 microliters
+once that's set she'll say take photo
+and we'll take a photo of the pipette er
+set here at 500 microliters and then the
+next few steps here are a little bit
+repetitive so we'll go ahead and skip to
+our step 7 and so here what we're gonna
+do is open up rack a and place the vowel
+in row 8 and so we'll do this by taking
+a photo to identify that exact location
+where the vial will be used or placed
+and then we go ahead and say a next step
+when we are ready and so as you guys are
+noticing you know this is different than
+you know our ptcs before a studio er as
+that requires CAD data so extra capture
+really comes in handy where maybe you
+don't have CAD data on a you know a
+piece of equipment or maybe you're
+running
+you know factory floor or a laboratory
+like we're doing here and you know that
+kind of a are just doesn't make sense so
+here for our step here we're at our mass
+spectrometer and we're just pointing to
+that user that there needs to be a
+sample
+you know tight fit between port C and
+the mass spec and just pointing out to
+the to the spot where that end users
+should be focusing and then to finish
+our procedure we'll head over to the
+computer we'll simply open the method
+program and select a run to begin the
+analysis and so to end this procedure we
+use the voice command finish capture
+will say edit title so we'll save a
+title for the procedure we'll just call
+mass spec demo and then we can go ahead
+and save capture so with before expert
+capture creating and sharing these
+easy-to-follow instructions can be done
+anywhere anytime simply by recording the
+expert while they're at work and so now
+we're moving on to our editor stage so
+this is a web-based editing environment
+where we will review fine-tune and then
+publish the content that we just created
+we'll start by plugging in our we're
+wall rail we're device scar computer and
+transfer the files from the device onto
+the computer and so what you're seeing
+here on the right is these steps will
+automatically be updated as we go along
+so every time our experts set next step
+the application created that step for
+you now you will have to still manually
+input the descriptive text so here for
+step one on the right you guys can see
+it says take the calibration standards
+box out of the refrigerator here you
+will still have to manually put that in
+but it is on the roadmap for that to
+update with experts audio as well and
+then on the left hand side you guys can
+see this is where all our assets will be
+so we can have assets from our session
+we just had from previous sessions or it
+could have legacy content as well so
+these top eight pictures we see up here
+was just some you know extra images that
+we thought were important to include in
+the process and then our videos here so
+again videos from this session or any
+previous session are available and so
+we'll quickly show you how we would
+manually create a step here so for step
+seven we'll just press add step we'll
+add some descriptive
+next and then we'll just simply drag and
+drop our assets onto that step so this
+was built out to be you know intuitive
+there really is no training required you
+know anybody can really come here
+whether they're the expert recording the
+steps or they're you know editing the
+steps here in the editor it was built
+for just about anybody to go in here and
+be able to do so and so we'll just
+quickly do the same thing for step 8
+and then instead of you know boring here
+with another step here we'll just skip
+through that so once we have what we are
+looking for we can actually go to the
+top right corner select our share tab
+and publish our procedure and so once
+that's published now our end user all
+they have to do is download this QR code
+and they can actually go ahead and
+follow the instructions we just created
+and so just went too quickly here before
+I get into the last part just so you
+guys understand the expert does need to
+be wearing a wearable device the
+wearable devices that extra capture
+works with our microsoft hololens real
+wear which is the noise being used in
+the demo here as well as musics however
+the end-user
+does not have to consume it through a
+wearable so it will you know whatever
+device you're consuming it on these will
+format automatically to that device so
+if they want to use their iPad or a
+phone they could do so as well
+and so what you're going to be seeing
+here though is then used or will be
+wearing a real wear device and you're
+gonna be seeing exactly what they're
+looking at so here for the first step
+they'll see the descriptive text now if
+there's more than one asset so maybe if
+you just had one photo or one video that
+would automatically show but since we do
+have multiple assets here the end-user
+will use the voice command open to be
+able to take a look at those assets that
+are available so you're not hearing the
+audio from the expert but accompanying
+this visual video is also the audio of
+the expert as well and then he'll say
+things like next to see the next step
+here and then we'll just quickly follow
+him right here following the step
+and then step three is actually going to
+be just a video so that will
+automatically play for end user and so
+he'll go ahead and set the micropipette
+here to 500 microliters now once he's
+done that we'll do something a little
+different here so instead of boring you
+guys with the next six steps we'll do
+something a little different will say
+menu to see our menu screen and then
+we'll say show step list to see all the
+steps in the procedure so you might be
+confident in the next few steps but
+unsure of step 9
+so you could say step 9 to skip ahead
+and this is a special step because it
+includes legacy content we dragged and
+drop from our desktop instead of that
+editor to itself so in this case we have
+a diagram of a mass spec as well as some
+graphical results to help compare us to
+our final results later in the process
+and then once we run the analysis you
+know we can't compare our results the
+graphical results shown or you can say
+back to overview to navigate back to the
+starting page so before expert capture
+does allow the enterprise to multiply
+here the expertise of your organization
+and just to conclude here I do want to
+finish off with a couple slides here so
+Value of Expert Capture
+just so we can hit home you know really
+what is the value of expert capture in
+both manufacturing and service so first
+for manufacturing you'll be able to
+improve your workforce productivity and
+efficiency so reduce turnover and
+attrition improve knowledge transfer and
+training as well as improve new hire
+productivity then we can reduce waste
+and improve quality by reducing scrap
+and rework costs reduce unscheduled
+downtime as well as increased revenue
+and then finally here reduce operational
+costs by reducing safety and compliance
+costs and reducing maintenance time and
+costs for service we're actually going
+to improve work efficiency by reducing
+attrition improving training as well as
+productivity we can increase service
+revenue will gain a competitive
+advantage here creating new
+opportunities as well as increasing
+renewals you'll also increase customer
+satisfaction so increase your first-time
+fixed rate reduce mean time to repair as
+well as decreased
+downtime and finally reduce your service
+costs by lowering those travel costs of
+having to send technicians out of
+reducing safety incidents as well as
+decreasing the labor costs
+excellent Demetri there's a question in
+QA
+the queue I'm wondering whether or not
+the system captures successful
+completion of tasks for checking on
+learning after the fact yep you can you
+can definitely do that
+correct okay excellent I will you talked
+for about 30 seconds here and give
+everyone else a chance to type any
+questions into the queue but this is an
+excellent way as you mentioned on the
+last slide to to kind of capture the
+knowledge in an organization whether
+it's an aging workforce issue where
+there might be retirement or nutrition
+coming up or if they're not a high
+turnover kind of situation where you
+want to easily capture training once and
+have a bunch of different people view
+the training or simply making sure that
+you are consistently and accurately
+training people and providing
+information across your organization
+there are ton of use cases for a tool
+like baforee expert capture and I hope
+people kind of saw how it works and are
+kind of mulling over how it could apply
+to their organization and if you have
+any questions about anything you saw
+feel free to reply to the follow-up
+email
+

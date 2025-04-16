@@ -1,0 +1,419 @@
+this topic is on scrum we're going to
+cover the scrum process the three key
+roles within scrum the four scrum
+ceremonies and the three artifacts
+delivered by scrum we're also going to
+talk about the top terms you need to
+remember and the rules of engagement
+when it comes to scrum what is scrum
+What is Scrum
+scrum is actually one of the most
+popular agile frameworks out there
+it helps teams deliver value in small
+iterations 30 days or less so you could
+have a one two three or four week sprint
+scrum is not a methodology or a method
+it's a framework which means that you'll
+have to tailor it to fit your own needs
+and it's actually quite simple
+it also comes from rugby so as you can
+see in the picture here there's a team
+who is aggressively trying to advance
+the ball and working together as one
+unit which is really different when you
+contrast it with the relay race approach
+right where every individual is doing
+their part and then passing the baton to
+the next person that's more of the
+waterfall approach scrum says no we have
+to have a cross-functional team and they
+have to be focused on advancing the
+common goal scrum was published in 1995
+and the popular names in scrum are Jeff
+Sutherland and ken Shriver but of course
+there are many other agile experts out
+there that have contributed to the
+success of scrum scrum again is probably
+the most popular method in agile and has
+been adopted widely right along with and
+mixed probably with some extreme
+programming and Kanban and various other
+agile techniques but probably the most
+popular so what is the scrum goal why
+would you want to adopt scrum and what
+could it do for you well interestingly
+enough scrum doesn't actually provide
+you with a lot of answers for everything
+that you should do scrum in fact
+surfaces a lot of questions within your
+organization's about inefficiencies
+dysfunctions team allocation that you
+within your own organization have to
+adapt to and answer so again scrum does
+not provide detailed answer it is not a
+prescriptive process it actually exposes
+a lot of questions that you need to and
+an example of that question for example
+how can I get my teams to work cross
+function
+together how can I break silos and
+create teams that are stable and that's
+very difficult even though it seems like
+it's common sense but a lot of
+organizations struggle with that so
+that's one of the concepts of a scrum is
+scrum has these very simple very easy
+rules but they're very hard to implement
+because the change that's required so
+what is the traditional way so that you
+The Traditional Way
+can understand scrum you have to
+understand how we've done things before
+traditionally we have a group of
+individuals that have ideas and they
+want to implement requirements they
+could be software hardware a business
+type project they need something done so
+they can improve their work now a
+sponsor usually is involved if this
+effort is not too small if it's a little
+bit bigger a sponsor involved because we
+need the money a sponsor normally hires
+a project manager or identifies a
+project manager that needs to be part of
+the team the role the project manager is
+to manage this project make sure it gets
+through funding and allocate the team
+members right the project manager
+normally takes these requirements and
+along with the help of some other
+individuals develops a project plan a
+project plan is like a Gantt chart with
+milestones date dependency and basically
+some sort of an idea of when do we think
+can get done now it was done in a very
+detailed fashion with a lot of detail
+level estimates all upfront so
+continuing on our traditional process
+the project manager takes our project
+plan and identifies resources that could
+be allocated to the team and for the
+very first team that normally is
+allocated is like the BA the business
+analyst who main one of the main roles
+of the BA is to go and gather the
+requirements from our subject matter
+experts or our business customers so the
+BA probably has tasks on the project
+plan related to requirements gathering
+next is the architect or the software
+engineer or the designer regardless of
+whatever project you've got you need
+someone who's going to figure out how
+are we going to implement this so the
+architect does their part of designing
+the how and then hands it over to the
+development team and you could have
+multiple developers so if you are doing
+software you could have user interface
+developers back-end developers graphic
+does
+miners these are the individuals that
+are actually getting it done they're
+executing so they've got tasks that they
+execute on and most of the time again on
+the project plan the tasks are estimated
+in hours now when the developers don't
+they hand it over to the testing team
+and the testing team comes in to make
+sure that what we said we were going to
+get done actually did get done and that
+we don't have any defects or bugs or
+quality issues within it so that we can
+hand it off again to our subject matter
+expert or our business customer so they
+can do user acceptance testing that's
+what UAT stands for and verify that what
+they said they wanted is actually there
+and hopefully at the end of this process
+we have a product that actually comes
+out now how would it be done differently
+in scrum let's go through this remember
+those requirements that the stakeholders
+came up with well the first step in
+scrum is we got to prioritize this list
+we can't just have this list all be high
+for example we want to prioritize it and
+we want to rank it our next step is the
+team the team does not actually work in
+a sequential process the team comes
+together as one cross-functional team
+and they work together on the backlog we
+also now introduce a product owner the
+product owner is the person in charge of
+the backlog and has to prioritize it so
+that the items that have highest value
+are sitting on top and the product owner
+also needs a scrum master and the scrum
+master is the individual who facilitates
+this entire process so this picture
+right here gives you the basics that you
+need to understand about scrum roles
+there's a product owner there's a scrum
+master there is the team and of course
+there are stakeholders that want to
+contribute to the backlog again the
+backlog itself is called the product
+backlog because it has the items that
+the product needs to get done now let's
+talk about involved versus committed
+The SCRUM Way
+individuals we refer to the product
+owner the scrum master and the team as
+committed individuals why do we call
+them committed because they're next on
+the line they have to get this project
+done if the project falls apart they are
+accountable
+for failure or for success of the
+project so we call them our committed
+team now who's involved then well our
+stakeholders stakeholders could be users
+of other departments it could be
+managers of other areas it could be
+other product managers they are all
+involved we also sometimes call them
+interested they're very interested in
+the success they're interested in
+providing input but the reason we
+differentiate between them in scrum is
+because we have various rules that
+govern the behavior of the two teams
+just in case you're wondering where this
+came from and you might have already
+heard about the joke the famous stroke
+within scrum it's the chicken and the
+pig joke so the way that it goes is the
+chicken and the pig got together and
+they wanted to start a restaurant a
+bed-and-breakfast and they were
+wondering what should we call it and so
+the chicken called that said let's call
+it ham and eggs and then the pig said
+well not sure I like this idea because
+I'm going to be committed and you're
+just going to be involved so that's sort
+of the background behind why we call
+people involved and why we call them
+committed but you may also hear them
+referred to as chickens and pigs for the
+purposes of these videos we're going to
+call them interested and commit it so
+let's talk about the product owner which
+Scrum Roles - Product Owner
+is one of the most important scrum rolls
+obviously all the other two roles are
+very important but the product owner is
+critical to your success the product
+owner is responsible for maximizing the
+business value that is delivered by the
+team so they are responsible for the ROI
+the return on investment which means if
+I have a really hard team and they're
+working on the working very hard on
+their requirements but they're still not
+delivering value I'm going to go back to
+the product owner and ask them what's
+going on why is this team not focused on
+working on the right items the product
+owner is one person it cannot be a
+committee of individuals and again this
+is going to be one of the challenges
+that you're going to face immediately
+when transforming or when using adopting
+scrum is you're going to say well we
+have multiple people that have
+requirements how should we only select
+one the idea here is the team cannot
+have four or five different bosses and
+different people telling them what to do
+that causes a lot of chaos and it
+actually causes the team themselves to
+have to figure out well what's the
+priority who do i satisfy do i satisfy
+John or Mary or Adam
+so that's why I'm scrum it could only be
+one person in charge of the backlog and
+in charge of the priority they are also
+the person that accept interject the
+work they're the ones that can say yes
+this is good this is done or nope can't
+accept this this is not meet my criteria
+of done they help define what done means
+and so maybe the team thinks an item is
+done but the product owner says nope
+that's not done based on my quality
+acceptance criteria so then it's really
+not done an item on the backlog or a
+story is not done until the product
+owner accepted is done so but one of the
+things we'll talk about later on is why
+it's important to define acceptance
+criteria ahead of time so the team has
+that before they begin to implement
+another thing that you should know about
+the product owner is they should be
+knowledgeable so they can't be someone
+who doesn't know anything about the
+system right they need to be
+knowledgeable of the requirements that
+they're actually asking they need to be
+empowered so they need to be able to
+make decisions and let people know yes
+or no do it this way don't do it that
+way and they should also be engaged so
+you can't have a product owner that
+doesn't show up to any of the meetings
+that does not help you plan these three
+characteristics are extremely important
+for your success you need to have
+someone who is knowledgeable empowered
+and engaged play this role our next
+scrum role is the scrum master the scrum
+Scrum Roles - ScrumMaster
+master is responsible for facilitating
+the whole process and ensuring that the
+team is actually focused on delivering
+value they are a servant leader who
+helps build self-organizing teams teams
+that can manage their own work in terms
+of the tasks the breakdown they also
+remove impediments they are like a hawk
+when it comes down to impediments and
+roadblocks the scrum master is on top of
+it they keep the process healthy so from
+an education perspective helping the
+entire team understand the process
+making sure the process is actually
+followed the rules are followed the
+product owner is actually engaged any
+time I walk into a team and I start to
+see the process falling apart the daily
+scrums are not happening for example the
+planning meetings are not scheduled the
+retrospective is really not quality I
+normally go back to the scrum master and
+help improve their skills again they are
+a servant leader they
+power the team they are not there to
+command or control the team and that's
+why we can talk a lot later on about
+servant leadership and why it's so
+critical for you to have these skills of
+learning how to empower and build
+high-performing teams not by commending
+and controlling but by actually
+empowering them and allowing them to
+develop their tasks and get the work
+done
+our next scrum role is the team this is
+Scrum Roles - The Team
+a cross-functional group of individuals
+they are responsible for turning the the
+product backlog item into actual
+potentially shippable product they're
+basically responsible for getting items
+done all the way to done and we will
+talk about the definition of done and
+why it's critical for you to have a
+definition of done up front with your
+project team and with your product owner
+typically the size of a team is seven
+plus or minus two individuals it is a
+cross-functional team which means it's
+not a team of developers and a team of
+testers and it's a team of bas it is
+just enough be A's developers testers
+scrum masters whoever are the roles that
+you need to get something done again if
+you have the right cross-functional team
+you're not going to have a lot of
+dependency on other roles for example if
+you need a DBA to do something for you
+that shouldn't be a separate team you
+should have had that DBA become part of
+your sprint in that iteration so they're
+part of the cross-functional team and
+probably in the real world they're
+really our core team members that are
+always dedicated or committed or very
+stable with the team and yes of course
+sometimes there are shared team members
+maybe like an architecture or DBA who
+you need every now and then who are not
+100% dedicated to the team they the
+scrum team is also self-organizing which
+means that they still have leadership
+they still know what the vision is so we
+still need leadership to be variety to
+them but within that vision they know
+how to get the work done they know how
+to break down their tasks and they're
+accountable for managing their own tasks
+as opposed to the traditional approach
+where a project manager comes up maybe
+with the task and then our is checking
+status to see are you done with your
+task are you done with your task yet and
+more of an assignment of tasks this is
+here a scrum team commits to tasks
+they are generalizing specialists and
+generalizing specialist is an
+interesting word it doesn't mean
+generalist doesn't mean that everyone
+can do anything but it also means that
+we're moving away from being specialists
+which means I can only do this I am the
+BA so all I'm going to do is gather
+requirements the idea of generalizing
+specialists is if if there's work
+related to testing that's involved and
+you can help with it because you have
+the skills why not why not contribute so
+a generalizing specialists means that
+our team the roles are sort of gray and
+everyone does whatever they need to get
+done to actually help out the team now
+again a real-world best practice is you
+do not want to go from the extreme of
+having specialists to having complete
+generalists you want to transition
+slowly into having an individual sign up
+and say you know what I can help a
+little bit more with this I'm a
+front-end developer but yes I can do
+some backend coding over here
+I'm back-end developer but I'm happy to
+write some front-end code I'm a BA but
+I'm happy to do some more testing so
+you're having individual sign up for
+whatever work they think needs to be
+done to still accomplish the team's goal
+another characteristic of our team is
+that they deliver value in small chunks
+and so they're completely focused on
+little small stories and working on
+these stories and delivering value in
+small chunks within every sprint so
+instead of waiting until two three four
+sprints before anything is delivered
+their goal is how can I maximize the ROI
+from this project by delivering checking
+in my code in small frequent batches
+another characteristic of our team is
+they are completely focused on quality
+which means they have to be building
+engineering best practices quality
+excellence all within the sprint itself
+and we'll talk more about engineering
+best practices

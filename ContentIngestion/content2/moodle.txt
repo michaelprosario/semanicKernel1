@@ -1,0 +1,431 @@
+Mary Cooch: Hello everyone and welcome to this Moodle Academy   webinar. What is Moodle LMS? So I'm Mary Cooch,  education manager here at Moodle HQ. That's the  
+organisation that maintains, develops, promotes,  trains in the use of the Moodle LMS. And I have  
+with me today Anna Krassa, who's education advisor  at Moodle HQ. Anna, if you'd like to say hello.  
+Anna Krassa: Hello everyone. Good to see new faces.   This time in our webinar. I'm looking forward to  hear your opinion and ideas and thoughts about  
+this event. Welcome. Mary Cooch:   Okay, so just to clarify then, this webinar is  basically a webinar about Moodle for people who  
+don't know anything about Moodle. Perhaps you are  looking for a learning platform and you've heard  
+the name Moodle. Perhaps your organisation has  told you that you are going to have to be using  
+Moodle and you just want to find out more. So  the first part of the session will be a short  
+presentation in three parts, and after that we  are happy to answer any of your questions or  
+comments that you raised. So the layout,  the overview is like this. First of all,  
+we're going to look at where does Moodle  come from? A little bit about the background,  
+its history, and then of course how you can  get Moodle, the different ways that you can  
+have your own Moodle sites. And finally, a very  important why you should use Moodle, what makes  
+Moodle special and what can Moodle do for you. You'll notice in the overview that we are not  
+actually talking about how to use Moodle. That's  because first of all, it would take a long  
+time to explain and we just want to do a short  presentation and have time for questions. But also  
+because here on Moodle Academy where this webinar  is being run, we have free webinars and free  
+courses showing you how to use Moodle as a teacher  or as an administrator or manager of a Moodle  
+site. So we don't need to do that. We just want  to give you a basic overview of what is Moodle  
+LMS. And so we're going to start, as I said, with  where does Moodle come from? Now in 2023, it is a  
+global learning platform used around the world,  but it actually started from just one man in one  
+small area for one small project. And I'd like  to tell you the story of Moodle very quickly.  
+And in fact, when we tell a story in English as  particularly to children, and I'm sure in your  
+native language, you also have a similar phrase.  We begin with once upon a time, and this story  
+actually starts once upon a time in the outback.  So in the sparsely populated, semi arid desert  
+region right in the centre of Australia. And this  was in 1969. So a long time ago was born Martin,  
+a little boy who lived in the outback of  Australia. In fact, he did have a pet kangaroo as  
+shown on the photograph on the left. And because  he lived with his family a thousand kilometres  
+away from the nearest physical school building or  village, he like many of the children had to do  
+his lessons remotely. And so remote learning was  happening even over 50 years ago, and in those  
+days they used to do them with something called  the School of the Air, and they used to do them  
+using shortwave radio as the photo on the right. Now the School of the Air still exists in  
+Australia because there are still people living  in the outback remotely. But now interestingly,  
+many of them, including Martin's own school,  use Moodle for their remote learning. Let's  
+fast-forward 30 years and see where Martin is,  and I expect you've worked out that Martin was  
+the person who began Moodle. It's much more than  just Martin now. He is working at the University  
+of Curtin in Western Australia as an internet  consultant. Now these are the early days of  
+the internet and he's very interested both in  the technical side of websites and programming,  
+but also in pedagogy in education. And he decides  to do a PhD, a doctorate in scientific education  
+and he's interested in finding out how using the  internet this new initiative could help the small  
+group of adult learners that he has himself at  the university. He's particularly interested  
+in a philosophy or pedagogy called social  constructionism where people build their knowledge  
+together, they collaborate together to learn. And so he starts work on designing a website,  
+a programme software just to do this,  to help his group as part of his thesis,  
+his doctorate. And by 2002, he'd actually got it  to a point where he was happy to put it out on  
+the internet for other people to download it and  try it and give him feedback. So that in fact,  
+by the way, was the 20th of August 2002. So you  can see that Moodle has recently celebrated its  
+21st birthday as a matter of fact. And  that day when they were the first people  
+downloading the Moodle software to test it were  also the first forum discussions because Martin  
+was very keen to have people collaborating,  discussion, discussing, giving opinions on  
+it. So this was the first part of the growth  of a Moodle community. If you are interested,  
+we don't usually talk about this, we just say  Moodle. But if you are interested the word Moodle,  
+it is actually a verb and it was a verb when  Martin decided to use it for his software,  
+but he actually turned it into an acronym. Now, we don't use the acronym, as I said,  
+we say Moodle, but I'd like to point out  that Modular Object Oriented Dynamic Learning  
+Environments. Modular and dynamic are very,  very important aspects of that acronym and of  
+Moodle. Moodle is modular in that it is made up of  different modules, plugins, activities, add-ons,  
+whatever you want to call them, elements that you  can use, you can choose and use for your learning  
+or your training. And you can add on or bring in  extra ones which are contributed by other people  
+or organisations. Also, it's dynamic because you  can customise and adapt Moodle to use for your  
+own particular learning purposes or needs as we'll  explore soon. So let's fast-forward to today 2023  
+and Moodle is actually used all around the world.  And the interface, so the wording of Moodle, where  
+you press the buttons or where your instructions  for logging in or for going to different areas  
+are translated in over a hundred languages. So you can actually be in a country and use  
+Moodle in your own language and it is available in  all the countries of the world over 242. And yes,  
+I know when we say that there are always  people who say, are there 242 countries in  
+the world? It is political. It depends on your  definition of country or state, but believe me,  
+it is everywhere. And there are over 160,000  Moodle sites, sites that use Moodle around the  
+world that we know of because as I'm going  to explain, Moodle is entirely free. So no  
+one has to tell us if they use it. There could be  millions of Moodle sites around the world that we  
+don't know of. These are the only ones which  have registered to tell us. The organisation  
+which we call Moodle HQ, that makes and maintains  Moodle has headquarters in Australia and Spain.  
+So we're in the Southern and the Northern  Hemisphere. But in actual fact, although   the Spanish headquarters in Barcelona is a  physical building. In Australia since Covid,  
+they realised as many of us did, that we are happy  to work remotely from home. And so the Australian  
+headquarters is an occasional shared office space.  And in fact, we have the Moodle HQ team. We work  
+remotely from many parts of the world. You  have here a map of the world. I am in England,  
+Anna is Greece, and we have people in 23 countries  using the Moodle software. So Moodle is global,  
+but I want to make a few points about Moodle and  the use of Moodle. Yes, Moodle is used in large  
+prestigious organisations around the world. The  University of Cambridge, [inaudible 00:09:43] in  
+Paris, UNESCO and the United Nations  also use versions of Moodle. Shell, the  
+petroleum company uses Moodle and many others. These are just examples. But despite being a  
+global organisation and for example, we have a  whole entity Moodle US, we have Moodle India,  
+we take our responsibility towards educators,  teachers, learners, we take it very seriously.  
+And Moodle is what we call a B corporation,  which means that it is a business that runs  
+on ethical lines, that is aware of the  environment, conscious of the environment,  
+and on equitable learning. And I want to stress  the equitable here. Moodle can be used from  
+the largest to the smallest of organisations.  You can use Moodle as one individual teacher,  
+as a homeschooler in a small elementary school,  all the way up to those large organisations.  
+But we never lose sight of the United Nations  sustainable development goal number four, ensure  
+inclusive and equitable quality education and  promote lifelong learning opportunities for all.  
+So you see here, there is that word equitable. And how do we do that? How can we ensure  
+inclusive, equitable quality education and how  can we do it for all, for everyone? Well, first  
+of all, I want to clarify and explain that Moodle  is entirely free. You can just get Moodle and use  
+it. You don't need to ask permission, you don't  need any licence. Moodle is also open source. That  
+means that the code that was used to make Moodle  originally Martins, but now contributed by many,  
+many other developers, which is PHP mainly  is available for anyone to adapt. If so,  
+if you know how to code, you can just get the code  and change the Moodle to use it exactly how you  
+want. Now additionally, we have a Moodle app. I'm  looking for my phone here. We have a Moodle app,  
+so we have an app for your smartphone  or your tablet, which is entirely free.  
+Again, you just go and get it from whichever app  store you use or there's even a link if you are  
+not able to get to an app store. And what is  really useful about this, which is mainly for  
+students, is that if you are in an area where  internet connection is poor or not stable. For  
+example some areas of India or Africa or some  areas in South America, then if you use the app,  
+you can download your tasks, your assignments,  you can do them offline. And then the next time  
+that you can get onto the internet somehow you can  sync your assignments, your other tasks back onto  
+the Moodle website to continue your learning. And  this is a very, very powerful and free feature,  
+but in fact, you don't even need the internet  to use Moodle. We have offline Moodle access.  
+There is something called a Moodle box which  you can get, and it is literally a box.  
+A raspberry pie is one example. And this can  be used within a building to spread out the  
+learning in that particular building. Now, for  instance, prisons, there are several prisons,  
+penitentiary institutions that find this very  helpful because prisoners have either no access to  
+the internet or very restricted access, and yet we  still want them to learn. And so by using Moodle  
+Box, you can have offline Moodle within your  building, your institution. Also, for example,  
+we have case studies where it is used in small  elementary schools in India, in villages in India,  
+for example, to help with their learning. So  we go from global to very small and precise,  
+and it is free and very, very possible to use with  difficult internet access or no internet access.  
+So I'm just going to stop there because that's  basically the background and the philosophy of  
+Moodle. Before we move on and we answer the next  questions, is there anything in the chat that we  
+need to cover, Anna? Anna Krassa:  
+So far the chat is quiet so we can move on. Mary Cooch:   Okay, that's great. I was thinking possibly we  might answer many questions as we continue with  
+the presentation. So we'll go on. So now you know  where Moodle comes from. You might be thinking,  
+okay, how can I get Moodle? And also whenever  we say that Moodle is entirely free, you don't  
+need permission, you don't need a licence. People  always ask the question, well, is there a catch?  
+There has to be a catch. Okay, well there is no  catch. Moodle is entirely free. You just need  
+to go to this site, download.moodle.org. You can  get Moodle, but it is entirely free. And in fact,  
+many universities or larger companies  just do exactly that. They get Moodle,  
+they use it for free. We might not even know  they're using it. However, to do this, you do need  
+to understand a bit about servers and databases  and SQLs and things, which I don't understand.  
+So there are other ways which you can get Moodle  and these involve payment at some level. So let's  
+take a look at those because the fact is there  is no one click installation. It's not like an  
+app on your phone. You can't just press a button  and get Moodle. And in fact, the Moodle app that  
+you can have on your phone only works when you  already have a website, a Moodle website. You  
+can't just get the Moodle app, that is not full  Moodle. So how can you get Moodle if you are not  
+particularly technical? Well, Moodle HQ, that's  us, the people who make Moodle. We offer what we  
+call Moodle Cloud, and you just need to type into  the internet, Moodle Cloud, and this is a kind of  
+one click installation. You tell them what name  you want to give you Moodle cloud site, and you  
+will then get 45 days of a free trial of Moodle. It's pretty much standard Moodle software with a  
+few limitations but not many. And if you like it,  so you can do anything you want with it for 45  
+days and if you like it, then you continue with  several packages at different prices depending  
+on how many users you want and what you want  to use it for. And this is perfect for smaller  
+or medium-sized organisations, schools, companies  and so on. So that's Moodle Cloud. But as I said,  
+because Moodle is free, anyone can basically use  it and set it up. So you can in theory, you can  
+go and search the internet and find a web hosting  company who will set up Moodle for you. In fact,  
+it may be that you are in an organisation  that uses a particular web hosting company,  
+that's fine. We have no control over  them, so we don't know the quality.  
+They could be very good and serve you very well.  You could have quite a poor experience if they're  
+not Moodle experts. So what we recommend, if  you want more customizations and more options  
+or a larger site is what we call Moodle Certified  Partners and Service Providers or Moodle partners  
+for short. And these are web hosts just like  you might find on the internet, but we have  
+actually checked them, we vetted them for the  quality of the services they offer. For their  
+Moodle hosting or training and so on, and we know  that they're experts. And so we then allow them,  
+and this I'm coming into another question now,  we then allow them to host Moodle officially  
+certified or verified by us. Okay, now this leads  me on to another question that people tend to ask,  
+which is, right, if Moodle is free and I don't  need to use a hosting company, how do you make  
+your money to continue developing Moodle? All  those people around the world, those developers,  
+Mary and Anna, how do you make money? Okay, so first of all, our Moodle certified  
+partners and service providers, they give us 10%  of their revenue in return for being able to call  
+themselves Moodle certified partners and service  providers. In fact, if you go with one of these,  
+you have an added option. If you are a  business and not an academic institution,  
+you have an added option of something we call  Workplace. This is a special version of Moodle  
+that is better suited to corporate or enterprise  learning rather than academic learning schools,  
+colleges and so on. So that's one way because  the fact is that how we get our money, well,  
+you are allowed to make donations. You  are more than welcome to donate to Moodle,   and we have links on our sites for donations.  But one way is the fact that, oh, incidentally,  
+Moodle Cloud, the money comes directly to Moodle  HQ. So if you use Moodle Cloud or Moodle certified  
+partners, then that money comes to Moodle  HQ because the word Moodle is a trademark.  
+So we can use Moodle to advertise Moodle Cloud  because we are Moodle HQ and you can pay us.  
+Our Moodle certified partners and certified and  service providers can advertise using Moodle,  
+and as I said, in return for that, they give us  some of their revenue. There are a hundred over  
+a hundred Moodle partners around the world,  but it does mean that other organisations or  
+businesses are not allowed to say Moodle hosting,  Moodle installation, Moodle training in their  
+advertising. Which is very useful to be able to  name the product that you want to sell. So you  
+have three ways of getting Moodle if you are not  capable of downloading it yourself on a server  
+or you don't want to, and we recommend Moodle  Cloud and Moodle certified service providers.  
+I'm going to stop there because hopefully I've  explained how you can get Moodle and how it works  
+even though it's entirely free and open source.  Are there any questions before I explain why you  
+should use Moodle and what it can do for you? Anna Krassa:   Yes, actually we have some interesting  parts of the discussion in the chat.  
+Mary Cooch: Well, I can't see the chat, Anna,   so I'm relying on you to repeat it. Anna Krassa:   Jonathan asked if we have a satellite office in  Philippines, and I explained that we don't have  
+exactly an office there, but we do have a Moodle  partner as you explain. And basically we have  
+Moodle partners, the network of Moodle Partners  is quite large and I think they're pretty much  
+everywhere in the world. So look around you. You  will probably find, and I'll also share the link  
+to the Moodle partners in a second. Mary Cooch:   Yes, and one of my last slides in  the presentation is some useful  
+links including the link where you can go to  find out more about Moodle and find your own  
+Moodle partner in your country. So yeah, that's  great. Thanks Anna for that. Anything else?  
+Anna Krassa: Also, keep in mind   that Moodle partners speak your language, so  this is very useful and helpful. Enrique asked  
+if the Moodle Cloud is subscription page, which is  indeed the case. You are subscribing to a specific  
+programme plan and depending on your needs,  of course, this is after the free 45 days.  
+Mary Cooch: Yes.   Anna Krassa: And yes, I think that's all  
+for now. We can move on. Mary Cooch:   Okay, and as I said, hopefully we have time  for more questions after this final section,  
+which is why should I use Moodle? What can Moodle  do for me? Okay, well first of all, if we go back  
+to the fact that Moodle is free, open source,  you can just download it onto your server,  
+very important to explain that you own your own  data. If you have Moodle in your organisation,  
+in your building, then everything on it is  yours. You are not tied to somewhere like  
+Microsoft or somewhere like Google, it's yours.  And Moodle does have very good GDPR settings,  
+privacy officer role and so on. We take security  very seriously. Security bugs are reported and  
+are dealt with very quickly and everything is  very well managed. And in terms of bugs, Moodle,  
+the software is updated regularly. In actual  fact, there are bug fixes and other updates every  
+single week if the Moodle administrator knows  how to get them, knows how to download them.  
+There are also what we call minor updates  every three months. So there's a smaller,  
+slightly updated version of Moodle every three  months, but what we also have is a major update  
+or new version twice a year, every six months. If  you may remember that the first version of Moodle  
+in August 2002 was called 1.0. In a couple of  weeks we will be having Moodle 4.3, so that's  
+where we are up to. So the software is regularly  updated and kept very secure. Also, another reason  
+for using Moodle, and this again is tied to the  fact that it is open source, that it is free,  
+is that there is a huge Moodle community in  different languages, not only in English. That's  
+happy to give you support, answer questions, and  make suggestions for free. And I'm going to share  
+the link to that site, Moodle.org later on. So one question or one concern people often  
+have when using open source software is yes, but  if it's open source, is it reliable? What's the  
+support? Well, you have two options. So you have  better support with Moodle because you have the  
+global community giving you free support, but  also you have Moodle partners, as Anna said,  
+many over a hundred around the world in your  country, in your language, who will offer you  
+support as part of your paid package, a particular  negotiated support package. So you actually have  
+more than in commercial organisations. Now in  terms of teaching, why should you use Moodle?  
+What can Moodle do for you? Well, pretty much  whatever you want, you can teach how you want  
+with Moodle. Now, as I said, when Martin was  initially making Moodle, he was very taken  
+with the social constructionist philosophy. And so  there are activities or modules in Moodle already  
+for collaborating, for learning together, working  with your peers, but you don't have to do that.  
+If you want simply to put on a list of video  lectures that you have done and you want your  
+learners just to watch them, you can do that.  If you want to just simply put worksheets on,  
+you can do that. So Moodle is dynamic and will  customise to whichever way you want to teach  
+or you are required to teach or you want your  learners to learn. Likewise with assessment. So  
+there are different assessment tools that  allow you to assess summatively. So you  
+can use assignments or quizzes summatively.  Informatively, so you don't have to use the  
+grading system. There's also a very powerful peer  assessment tool. And in terms of grading, you can  
+use the traditional academic grades, percentages  or letter grades. You can design your own rubrics  
+to grade with and also if your subject is more  practical vocational, you can use skills-based  
+learning or competencies because there's  also the option of creating competency-based  
+frameworks or skills-based frameworks  and adding them in your Moodle courses.  
+Now, Moodle calls the learning spaces courses,  but I just wanted to point out that the words in  
+Moodle are all customizable by an admin. So if you  are in an organisation where you don't want to use  
+the word course because it's informal learning,  if you are as I used to help an elementary school,  
+they don't know what a course is, you could  change the wording to rooms or learning spaces.  
+So all of those are up to you. And in terms of  your courses, rooms, learning spaces, they can  
+either be entirely online. So you could use Moodle  with learners or trainees hundreds of kilometres  
+away or you could use it as I used to that during  the day you are teaching in a physical classroom  
+and then learners use Moodle in the evenings and  at weekends for extra learning. You can also have  
+rigid start and end dates of courses or not. You could just have it continuous. You can also  
+have deadlines for assignments, for quizzes or  not. So it's very, very customizable to what you  
+want and I think the best thing to do is to give  you a very quick tour of what a standard Moodle  
+site looks like for a learner and for a teacher.  And when I say learner or teacher, you could use  
+the words trainee and manager or tutor or whatever  you want to call them. The site that you are going  
+to see is a standard Moodle site that you just get  such as a Moodle Cloud site or if you downloaded  
+it. But it's important to realise that you  can have many different themes or colours or  
+backgrounds, anything to match your own branding  of your organisation. You can either do it  
+yourself or have a friend do it if they know how  to do that or you can get free options or a Moodle  
+partner will customise your Moodle site for you. So some people are using Moodle and they have no  
+idea that they're using Moodle because it's blends  in with their own branding. So what you see here  
+is what you get if you were to go and press the  button to get a Moodle Cloud site for example as  
+a learner. And we are going to follow learner  Barbara, I think she's already been enrolled  
+in some courses, so this isn't her first time on  the site and when she first goes there she sees  
+what's called a dashboard. And her dashboard  shows her a timeline of activities which she  
+needs to complete. So it is very good for keeping  herself organised. You can see for instance that  
+she has a peer assessment task due, she has an  assignment due and she simply needs to click the  
+button next to it, view workshop summary add  submission and it will take us straight there  
+so she can meet the deadline. If her courses  have deadlines because they don't have to if  
+the teachers don't want to use them. Something else I like on the dashboard   on the right, the section is called a block  draw and there is a section or a block called  
+recently accessed items and here is where she  can see where she was studying last on Moodle  
+and so she can quickly go back to the item or  activity that she was looking at the last time  
+she accessed Moodle to continue from where she  left off. That also is very helpful I think. If  
+you can see at the top as well as dashboard,  there's also a link my courses and this is  
+where student Barbara can see all of the courses  she is enrolled in. Now this is a demonstration  
+site which I'm going to give you access to  later. So these courses are on a variety of  
+topics. You obviously possibly would have a more  specialised or more focused topics here, but for  
+each of these courses that she's enrolled in, you  can see percentages. 33% complete, 27% complete.  
+That's because for these courses the teacher  has made certain tasks or activities required  
+and she needs to complete them in order then  to complete the whole course when it will be  
+a hundred percent complete. And perhaps she could  get a badge or a certificate even those two are  
+options within Moodle, but again, the teacher  doesn't have to do that. So you could just have  
+a course that you can access at any time. I  also told you about the very useful Moodle  
+app and so let's just take a look at what this  looks like on the app. So here is the app view,  
+this is my Android smartphone. I took these photos  last week so you can see the landscape view and  
+you can see the portrait view of Barbara's Moodle  site and she can do everything as a student on  
+the app that she could do on the main site. And there is a cloud, I hope you can see. There  
+is a cloud and wherever she sees the cloud, that  means she can either download the whole course or  
+she could download a particular activity to do it  offline if her internet is poor and then rethink  
+it the next time she goes online. So that's what  I was explaining also about equitable learning for  
+all. I think we're going to go very briefly into  one of these Moodle courses. So we'll go into the  
+critical thinking, develop your skills course.  We'll see the website view because it allows me  
+to make larger, wider screenshots. Now Barbara  is she likes to be very organised. She likes a  
+tidy page. So when Barbara goes to the course  critical thinking, develop your skills, she's  
+already collapsed all of the information, the  learning information in the different topics or  
+this teacher calls them modules, their topics or  sections in her course. And then she can decide,  
+right, today I'm going to study module two. So she would just click the arrow to expand  
+it and look at the learning materials, which we  will do in a moment. On the left if she clicks  
+to expand those dots there she has what we call  a course index and this allows her to see all of  
+the activities in the course. You can scroll this  up and down independently of the central sections.  
+You'll see green circles, the green circles next  to activities tell Barbara that she's done that  
+activity, she's completed it. She doesn't have  to worry about that. There is one at the bottom,  
+module two, quick check, which is an empty  circle and that is saying that she still needs  
+to complete that so she should go and do that. If  there is no circle glossary of terms useful video,  
+that activity is not required. So again, she has  several ways of keeping up to date with her work.  
+Optionally on the right, if Barbara clicks the  arrow on the right, if it is available. Her  
+teacher might've added and this is the block draw  we call, extra blocks just for extra information  
+as part of the learning. For example, there is  an activity results block. This is a leaderboard  
+basically. This one shows the highest grades in  a particular quick check. It could be any of the  
+graded options and it's just one example how you  can gamify your course as standard using Moodle  
+standard activities. So gamification is possible.  There's also course completion status yet another  
+block showing her where she's in the course to  make sure that she's always on target. Now as I  
+said, Barbara likes to keep her central area very  tidy. So let's go into module one, the historical  
+background and click to expand it so we can see  what learning materials Barbara has to do there.  
+And if we click well, there's a video and it's  very easy to add videos, YouTube videos and so on  
+to a Moodle site. She has different activities in  what we call cards. These cards will be slightly  
+narrower in the next version of Moodle so that  there will be more space. And you see that some  
+of them say done. Done. That's the equivalent of  the green filled in circle telling Barbara she's  
+done those activities. So she can scroll further  down the course page and she has module two quick  
+check. That was one with an empty circle telling  her she needed to do it and she needs to receive  
+a grade, but it has to be a passing grade  to complete that activity. At the bottom,  
+tell us how we did is a survey. It's a feedback  form that she needs to complete to tell her  
+teacher how she thought the course went. And in order to complete that, the to-do  
+box says submit feedback. So again, she's very  clear what she needs to do to complete it if the  
+teacher's using that. I think now is a good  time to look at the course from the teacher  
+point of view. So we're going to leave student  Barbara and we are going to go in as teacher,  
+teacher Jeffrey, I think. And when we  access the course as teacher Jeffrey,   there's a big orange circle with number one and  number two. I made, these aren't standard Moodle,  
+don't worry. But that's a point at two important  aspects for a teacher in a course, this is the  
+same course and as a teacher, teacher Jeffrey, by  the number one has an edit mode hoggle. And when  
+he turns it to on, he's then able to edit,  add, delete items on the course book edit.  
+If he clicks the pencil icon there, he can select  several tasks activities together and move them,  
+hide them, delete them. Anywhere there is a pencil  icon next to some words he can change the wording,  
+the titles. And next to the number two that  I made is a plus icon. Now whenever teacher  
+Jeffrey scrolls up and down the course with  edit mode on, he will see plus appear and he  
+just clicks a plus sign wherever he wants to add  a new task or activity resource. And this takes  
+him to the activity chooser we call it. These  are all the modules that Moodle has as standard.  
+There are many a standard. There are also others  that your administrator can add or you can if  
+you're an administrator. For example, things you  might expect like assignments or choices. Moodle's  
+name for a quick poll, big blue button is Moodles  inbuilt video conferencing or virtual classroom.  
+So you don't need Zoom, you don't need Microsoft  Teams. You have something already in Moodle. Now  
+whenever our teacher clicks to set up one of  these activities, for example in assignments,  
+let's click to set up an assignment. As well  as the settings you would expect, its name,  
+the instructions. There are two optional  sections. One of them on the left is called  
+activity completion. And this is where the  teacher can define what a learner needs to  
+do for that activity to be checked as complete.  It depends on the activity. For an assignment,  
+it might be receive a grade or a passing  grade. For a poll, which middle calls a choice,  
+it might be to make a choice. If it's a forum,  it might be to post in a forum and so on. Or  
+they might allow the student just to mark it as  complete manually if they've read it for example.  
+Equally, you can also as a teacher on the right,  add a restriction. So an activity is not available  
+until either a previous activity has been  completed or passed or until a certain date. Maybe  
+you are the teacher, you put up your PowerPoints  for your presentations, but you don't want the   learners to see them until they've been to the  physical lecture in the physical auditorium. You  
+can restrict them by user profile or by group  and so on if you want to. So you can have very,  
+very strict control over your course or not. And  some of you at this point in the last couple of  
+slides might be thinking, I don't want any of  that. I just want to put my worksheets into  
+a space on a Moodle site. Well, you can. What  you see in this next screenshot is my desktop.  
+It's my laptop where I'm working today. And the black band on the right is actually  
+my desktop. It's a moonscape, that's why it's  so black. And I've put two documents. There's  
+a PDF and a Word document. And with edit mode  on, on the Moodle course, I just need to click  
+on them selected and drag it anywhere I want  onto my Moodle course page and I'm done. I can  
+have materials in my course in minutes. So as  you can see, you can go from the very complex  
+to the very straightforward. I'm going to leave  it there. But what I want to share with you is  
+if you'd like to explore or experiment further,  then of course we have a site Moodle.org/demo.  
+Go to that URL. We'll put the URLs in the  chat. Moodle.org/demo. Try Mount Orange School,  
+this is a demonstration site where I took all of  those screenshots. Go and meet student Barbara,   teacher Jeffrey, log in as them and try all of  the activities. Or you can have a completely  
+empty site called Moodle Sandbox where you can  practise as much as you want and the sites are  
+reset every hour. And of course you can have your  own Moodle Cloud site for free for 45 days where  
+you can practise on your own without wondering if  anyone else in this webinar is on the site at the  
+same time as you perhaps causing confusion. So I want to finish by giving you some useful  
+URLs. Then we will open it up for any questions.  Moodle.com is the main site or commercial site.  
+That is where you go to find more about Moodle,  its background, the Moodle partners. You can find  
+your Moodle partners on Moodle.com. Look for your  country, look for the services. It will take you,  
+it will link you to Moodle Cloud. Also, Moodle  Academy, which is where we are today. This has  
+free webinars and courses so that you can learn  to use Moodle for free. So there is no charge for  
+learning how to use Moodle. Get yourself a Moodle  Cloud site and come back to Moodle Academy and do  
+some of our free courses. And Moodle.org is the  site where there is the global community giving  
+you free advice and support. And that is in  many different languages. I think over 30,  
+maybe about 40 different languages. So you don't have to ask your questions or  
+make your complaints or suggest your proposals  in English, you can use your own language as  
+well. So bookmark Moodle.com, Moodle Academy and  Moodle.org. And I'm going to stop now and we have,  
+unless we have a few minutes left for any  questions or comments. So I'm going to pass   over to Anna now. Anna Krassa:  
+Okay. And let me also open my camera. Well, we do  have some questions. I didn't answer them in the  
+chat this time. Meredith asked, where do I find  resources for skills-based resources? And I want  
+a little bit to clarify. Mary Cooch:   Yes, please. Anna Krassa:   Angel shared already in the chat the link to  Moodle documentation about the competencies.  
+But Meredith, I'm not sure what you are looking  for. Moodle does support competencies and you  
+can add a competence framework inside the  Moodle and create learning plans. But I'm  
+not sure if this is what you are asking for  or if you want to find a way to develop your  
+skills on using Moodle. She's saying that she's  working on vocational education using Moodle.  
+Mary Cooch: So perhaps competencies might be appropriate.   Anna Krassa: Yes, I think that the link that Angel has  
+is the right one. There are skills-based activity  that I'm trying to work out how to do. Yes.  
+Mary Cooch: If you go to Moodle.org,   that's the link I gave to the community  forums. Then in whichever language you want,  
+you could ask the question, give an  example of the activity you are trying   to do and people will help you. If you are  happy with English, then there is a forum  
+called Teaching with Moodle and the people in  there I facilitate that will be very helpful,  
+will be very happy to help you work that  out as well. And oh, good that you think   the link is the right one. Okay, Anna, I can't  see any of this, so if you want to continue.  
+Anna Krassa: Yes, Morgan said that it was a  
+very good introduction to Moodle. Adrianne, thanks  for the webinar. Meredith says also that there  
+are... Yeah, we read that one. And I think that  we basically have [inaudible 00:45:55] replies.  
+I don't, that's nice. See any other  question? Okay, Enrique just came up.  
+What is the next generation future for Moodle in  the pipeline like Chat GPT integration maybe?  
+Mary Cooch: Well that's interesting because in   a few weeks, October the ninth I think it is, we  are releasing a new version of Moodle, as I said,  
+Moodle 4.3. That will allow you for example to  link WhatsApp or Telegram or Slack or a matrix  
+element, any of those to your Moodle courses so  that you are always communicating with learners.  
+There are other features as well. I think I'm  going to suggest that you keep an eye on Moodle  
+and social media because we will be releasing  some videos and some social media articles about  
+what's coming. We also very, very interested in  Moodle and AI. There are actually already plugins,  
+do you remember we said the M stands for modular.  Modules, extra modules that administrators can  
+add to their Moodle sites, which are related to  AI. So in short, that is coming. We're always  
+very conscious of what is happening in the world  at the moment. Chat GTP and other AI tools.  
+Anna Krassa: Yes, and also you can start with   some basic things on AI, taking some courses.  We have a course we have in the academy.  
+Mary Cooch: Little Teaching with AI.   Anna Krassa: Yes, very fresh course. And of course there will  
+be several presentations in the global mood. If it  happens to come by from Barcelona and the global  
+mood. You will definitely see a lot of discussions  there. And Jonathan is asking where do we get some  
+training and certification for educators? Moodle  Academy is definitely the place I would say. You  
+can get free training. You can also get more  specialised training and collaboration with  
+partners as well. You can find inside the Moodle  Academy also certifications and programmes of  
+courses. And of course we have the Moodle educator  certificate if you are interested in that one.  
+This is of advanced level of certification  that covers all the 22 digital competencies  
+for educators. It worth definitely take a look  inside the moodle.academy. You will find many  
+courses that can make you an expert actually in  Moodle. Either you are an educator or a Moodle  
+administrator or even a Moodle developer. Mary Cooch:   Indeed, yes. In fact, it's a nice way for  me to lead on to the next couple of slides  
+where we'd really like you to get involved with  Moodle Academy. So while you are still thinking  
+perhaps of some final questions, if there will  be any. Please help us to grow Moodle Academy by  
+contributing to it. We have a course and there's  a link on the front page on the site home called  
+Get Involved where you can suggest topics which  we at academy can cover in future webinars and  
+courses. If you've joined the webinar, but you  actually know Moodle, you could perhaps suggest  
+to present or help us present webinars and help  create courses. If you are an expert in Moodle  
+and Anna didn't mention this, but this is an  important part of Moodle Academy. The courses,  
+some courses are translated, so you can go  to a course in your language and you will be  
+able to see the course in your language  even though it was written in English.   And we are always looking for volunteer  translators who are happy to translate  
+courses into the languages. And we have  a course called Translate Moodle Academy,  
+which you can take and then help us. Again,  this is part of our community, as I said,  
+the Global Moodle community. Also, please, if you  enjoy the webinar, please help spread the word.  
+Tell your friends and colleagues that you joined  this webinar. Tell them about Moodle Academy   and the Moodle Educator certification. When you  complete courses, individual courses, you can get  
+a batch. Not in this webinar because this isn't  a course, this is just work for webinars. If you  
+take the beginner courses for teachers or admins  and others, also, if you complete a programme of  
+courses, you can purchase a certificate, which  is well respected by employers. And also once  
+you've developed your skills, as Anna said,  as an educator and you have some experience,   you can get the very prestigious Moodle educator  certification. And we have a quiz. Are you ready  
+for MEC to see if you are ready for that? If  there's nothing else pressing, I can't see-  
+Anna Krassa: There is just one question. Despite  
+the multiple thank you from everyone. I think  Meredith asked if we can suggest academic courses  
+that are really counter specific. And I think we  are always open to any suggestions. I mean all the  
+suggestions are equally reviewed. Mary Cooch:   Absolutely. And also they don't have to be in  English. We've done webinars in Spanish. We  
+have some planned in French and German, and  so it doesn't only have to be in English.  
+Anna Krassa: Yep, absolutely.   Mary Cooch: Okay, well if that's everything then thank you  
+all for attending. It was a very pleasant session  and the recording should be available shortly and  
+it's goodbye from me, Mary Cooch. Anna Krassa:   And me, Anna Krassa. See you  around in Moodle Academy.  
+Mary Cooch: Definitely. Thank you.

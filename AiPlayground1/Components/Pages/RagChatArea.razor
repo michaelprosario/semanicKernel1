@@ -1,0 +1,209 @@
+﻿
+@page "/rag-chat"
+@using AppInfra;
+@using Microsoft.Extensions.VectorData;
+@using Microsoft.SemanticKernel;
+@using Microsoft.SemanticKernel.ChatCompletion;
+@using Microsoft.SemanticKernel.Connectors.OpenAI;
+@using Microsoft.SemanticKernel.Data;
+@using Microsoft.SemanticKernel.PromptTemplates.Handlebars;
+@using Microsoft.SemanticKernel.Embeddings;
+@inject ITextEmbeddingGenerationService textEmbeddingGeneration;
+@inject IJSRuntime JS;
+@inject IConfiguration Configuration;
+@inject IVectorStore vectorStore;
+
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">AI Chat with Data Retrieval</h3>
+                </div>
+                <div class="card-body">
+                    <div class="chat-container mb-3" style="height: 400px; overflow-y: auto;" @ref="chatContainerRef">
+                        @foreach (var message in chatHistory)
+                        {
+                            <div class="@(message.Role == AuthorRole.User ? "user-message" : "assistant-message") mb-2 p-2 rounded">
+                                <strong>@(message.Role == AuthorRole.User ? "User" : "Assistant")</strong>
+                                <div>@message.Content</div>
+                            </div>
+                        }
+                        @if (isLoading)
+                        {
+                            <div class="assistant-message mb-2 p-2 rounded">
+                                <strong>Assistant</strong>
+                                <div class="typing-indicator">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Type your message..."
+                        @bind="userInput"
+                        @bind:event="oninput"
+                        @onkeydown="@HandleKeyPress" />
+                        <button class="btn btn-primary" @onclick="SendMessage" disabled="@(string.IsNullOrWhiteSpace(userInput) || isLoading)">
+                            <i class="bi bi-send"></i> Send
+                        </button>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline-secondary" @onclick="ClearChat">Clear Chat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    #pragma warning disable SKEXP0001 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
+    private ChatHistory chatHistory = new();
+    private string userInput = string.Empty;
+    private bool isLoading = false;
+    private ElementReference chatContainerRef;
+    Kernel kernel;
+    VectorStoreTextSearch<AppInfra.ContentItemFragment> textSearch;
+
+    
+    protected override async Task OnInitializedAsync()
+    {
+
+        string openAiApiKey = Configuration["OPENAI_API_KEY"];
+        string modelId = "gpt-4o-mini";
+
+        // Create a kernel with Azure OpenAI chat completion
+        var builder = Kernel.CreateBuilder();
+        builder.Services.AddOpenAIChatCompletion(modelId, openAiApiKey);
+
+        // Build a text search plugin with vector store search and add to the kernel    
+        // How do you Build a text search plugin with vector store search and add to the kernel?
+        var vectorStoreRecordCollection = vectorStore.GetCollection<string, ContentItemFragment>("content_item_fragment");
+        textSearch = new VectorStoreTextSearch<ContentItemFragment>(vectorStoreRecordCollection, textEmbeddingGeneration);
+        
+        kernel = builder.Build();
+
+        // https://learn.microsoft.com/en-us/semantic-kernel/concepts/text-search/text-search-vector-stores?pivots=programming-language-csharp
+                
+        // Build a text search plugin with vector store search and add to the kernel
+        var searchPlugin = textSearch.CreateWithGetTextSearchResults("SearchPlugin");
+        if(searchPlugin == null)
+            throw new Exception("searchPlugin is not defined");
+            
+        kernel.Plugins.Add(searchPlugin);
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await ScrollToBottom();
+    }
+    private async Task ScrollToBottom()
+    {
+        try
+        {
+            await JS.InvokeVoidAsync("scrollToBottom", chatContainerRef);
+        }
+        catch
+        {
+            // Handle any exceptions that might occur
+        }
+    }
+
+    private async Task HandleKeyPress(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter" && !string.IsNullOrWhiteSpace(userInput) && !isLoading)
+        {
+            await SendMessage();
+        }
+    }
+
+    private string GetPromptTemplate(){
+        return @"
+            {{#with (SearchPlugin-GetTextSearchResults query)}}  
+                {{#each this}}  
+                Name: {{Name}}
+                Value: {{Value}}
+                Link: {{Link}}
+                -----------------
+                {{/each}}  
+            {{/with}}  
+
+            {{query}}
+
+            Please answer in paragraph format.  Limit responses to 3-5 sentences.
+
+            Include citations to the relevant information where it is referenced in the response.
+            ";
+    }
+
+    private async Task GetAssistantResponse(string message)
+    {
+        // Invoke prompt and use text search plugin to provide grounding information
+        string promptTemplate = GetPromptTemplate();
+
+        KernelArguments arguments = new() { { "query", message } };
+        HandlebarsPromptTemplateFactory promptTemplateFactory = new();
+                    
+        var result = await kernel.InvokePromptAsync(
+            promptTemplate,
+            arguments,
+            templateFormat: HandlebarsPromptTemplateFactory.HandlebarsTemplateFormat,
+            promptTemplateFactory: promptTemplateFactory
+        );
+        
+        var chatResult = result.ToString(); 
+
+        // Add AI response to history
+        chatHistory.AddMessage(AuthorRole.Assistant, chatResult ?? string.Empty);
+    }
+
+    private async Task SendMessage()
+    {
+        if (string.IsNullOrWhiteSpace(userInput) || isLoading)
+            return;
+
+        string message = userInput.Trim();
+        userInput = string.Empty;
+
+        // Add user message to history
+        chatHistory.AddUserMessage(message);
+        StateHasChanged();
+        await ScrollToBottom();
+
+        isLoading = true;
+        StateHasChanged();
+
+        try
+        {
+            // Configure execution settings
+            OpenAIPromptExecutionSettings executionSettings = new()
+            {
+                FunctionChoiceBehavior = FunctionChoiceBehavior.Auto()
+            };
+
+            // Get response from AI
+            await GetAssistantResponse(message);
+        }
+        catch (Exception ex)
+        {
+            // Handle exception
+            chatHistory.AddAssistantMessage($"I encountered an error: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+            await ScrollToBottom();
+        }
+    }
+
+    private void ClearChat()
+    {
+        chatHistory = new ChatHistory();
+        StateHasChanged();
+    }
+}

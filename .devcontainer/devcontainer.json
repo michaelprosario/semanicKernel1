@@ -1,0 +1,19 @@
+{
+    "name": "AiPlayground1",
+    "image": "mcr.microsoft.com/dotnet/sdk:9.0",
+    "features": {
+      "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.defaultProfile.linux": "bash"
+        },
+        "extensions": [
+          "ms-dotnettools.csharp",
+          "ms-vscode.vscode-typescript-next"
+        ]
+      }
+    },
+    "postCreateCommand": "dotnet --info"
+  }
