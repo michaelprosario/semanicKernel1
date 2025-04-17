@@ -17,8 +17,15 @@ string textEmbeddingModel = "text-embedding-3-small";
 string openAiApiKey = builder.Configuration["OPENAI_API_KEY"];
 string postgresConnectionString = builder.Configuration["DB_CONNECTION"];
 
-Console.WriteLine($">>>>> Postgres connection string: {postgresConnectionString}");
-Console.WriteLine($">>>>> OpenAI API key: {openAiApiKey}");
+if (string.IsNullOrEmpty(openAiApiKey))
+{
+    throw new ArgumentException("OpenAI API key is not set. Please set the OPENAI_API_KEY environment variable.");
+}
+if (string.IsNullOrEmpty(postgresConnectionString))
+{
+    throw new ArgumentException("Postgres connection string is not set. Please set the DB_CONNECTION environment variable.");
+}
+
 
 builder.Services.AddOpenAITextEmbeddingGeneration(textEmbeddingModel, openAiApiKey);
 builder.Services.AddPostgresVectorStore(postgresConnectionString);

@@ -40,8 +40,11 @@ class Program
         string openAiApiKey = configuration["OPENAI_API_KEY"];
         string postgresConnectionString = configuration["DB_CONNECTION"];
 
-        Console.WriteLine($">>>>> Postgres connection string: {postgresConnectionString}");
-        Console.WriteLine($">>>>> OpenAI API key: {openAiApiKey}");
+        if (string.IsNullOrEmpty(openAiApiKey) || string.IsNullOrEmpty(postgresConnectionString))
+        {
+            Console.WriteLine("Please set the OPENAI_API_KEY and DB_CONNECTION environment variables.");
+            return;
+        }
 
         services.AddOpenAITextEmbeddingGeneration(textEmbeddingModel, openAiApiKey);
         services.AddPostgresVectorStore(postgresConnectionString);

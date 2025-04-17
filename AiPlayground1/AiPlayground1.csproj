@@ -23,6 +23,9 @@
     <PackageReference Include="Microsoft.SemanticKernel.PromptTemplates.Handlebars" Version="1.46.0" />
     <PackageReference Include="Microsoft.SemanticKernel" Version="1.46.0" />    
     <PackageReference Include="Npgsql" Version="9.0.3" />
+    <PackageReference Include="ModelContextProtocol">
+      <Version>0.1.0-preview.9</Version>
+    </PackageReference>
     
   </ItemGroup>
 
