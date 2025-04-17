@@ -1,4 +1,5 @@
 ﻿@page "/chat"
+@using Markdig
 @using Microsoft.SemanticKernel;
 @using Microsoft.SemanticKernel.ChatCompletion;
 @using Microsoft.SemanticKernel.Connectors.OpenAI;
@@ -18,7 +19,7 @@
                         {
                             <div class="@(message.Role == AuthorRole.User ? "user-message" : "assistant-message") mb-2 p-2 rounded">
                                 <strong>@(message.Role == AuthorRole.User ? "User" : "Assistant")</strong>
-                                <div>@message.Content</div>
+                                <div>@this.GetHtmlFromMarkDown(@message.Content)</div>
                             </div>
                         }
                         @if (isLoading)
@@ -59,7 +60,10 @@
     Kernel kernel;
     IChatCompletionService ChatCompletionService;
 
-    
+    public MarkupString GetHtmlFromMarkDown(string input){
+        return new MarkupString(Markdown.ToHtml(input));
+    }
+
     protected override async Task OnInitializedAsync()
     {
 
