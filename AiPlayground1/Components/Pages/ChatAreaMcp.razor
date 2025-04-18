@@ -3,9 +3,10 @@
 @using Microsoft.SemanticKernel;
 @using Microsoft.SemanticKernel.ChatCompletion;
 @using Microsoft.SemanticKernel.Connectors.OpenAI;
-@using ModelContextProtocol
-@using ModelContextProtocol.Client
-@using ModelContextProtocol.Protocol.Transport
+@using ModelContextProtocol;
+@using ModelContextProtocol.Client;
+@using ModelContextProtocol.Protocol.Transport;
+@using Microsoft.SemanticKernel.Agents;
 @inject IJSRuntime JS;
 @inject IConfiguration Configuration;
 
@@ -56,14 +57,22 @@
 </div>
 
 @code {
+    #pragma warning disable SKEXP0001 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
+
     private ChatHistory chatHistory = new();
     private string userInput = string.Empty;
     private bool isLoading = false;
     private ElementReference chatContainerRef;
     Kernel kernel;
     IChatCompletionService ChatCompletionService;
+    ChatCompletionAgent agent;
+
+    OpenAIPromptExecutionSettings executionSettings;
 
     public MarkupString GetHtmlFromMarkDown(string input){
+        if(string.IsNullOrWhiteSpace(input))
+            return new MarkupString("System returned empty response. :(");
+
         return new MarkupString(Markdown.ToHtml(input));
     }
 
@@ -79,9 +88,13 @@
         // Create an MCPClient for the GitHub server
         await using IMcpClient mcpClient = await McpClientFactory.CreateAsync(new StdioClientTransport(new()
             {
-                Name = "GitHub",
-                Command = "npx",
-                Arguments = ["-y", "@modelcontextprotocol/server-github"],
+                Name = "mcp1",
+                Command = "dotnet",
+                Arguments = [
+                    "run", 
+                    "--project",
+                    "C:\\dev\\AiPlayground1\\PodcastsMcp\\PodcastsMcp.csproj"
+                    ],
             }));
 
         var tools = await mcpClient.ListToolsAsync().ConfigureAwait(false);
@@ -90,9 +103,25 @@
             Console.WriteLine($"{tool.Name}: {tool.Description}");
         }            
 
-        kernel = builder.Build();
 
-        ChatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
+        kernel = builder.Build();
+        kernel.Plugins.AddFromFunctions("mcp1", tools.Select(aiFunction => aiFunction.AsKernelFunction()));
+
+        // Enable automatic function calling
+        executionSettings = new()
+        {
+            Temperature = 0,
+            FunctionChoiceBehavior = FunctionChoiceBehavior.Auto(options: new() { RetainArgumentTypes = true })
+        };        
+
+        agent =
+            new ChatCompletionAgent
+            {
+                Instructions = "Answer questions and use tools when needed.",
+                Name = "myAgent",
+                Kernel = kernel,
+                Arguments = new KernelArguments(executionSettings),
+            };            
     }
 
 
@@ -139,25 +168,12 @@
 
         try
         {
-            // Configure execution settings
-            OpenAIPromptExecutionSettings executionSettings = new()
-                {
-                    FunctionChoiceBehavior = FunctionChoiceBehavior.Auto()
-                };
-
-            // Access kernel using dependency injection
-            
-
 
             // Get response from AI
-            var result = await ChatCompletionService.GetChatMessageContentAsync(
-                chatHistory,
-                executionSettings: executionSettings,
-                kernel
-            );
+            var result = await agent.InvokeAsync(message).FirstAsync();
 
             // Add AI response to history
-            chatHistory.AddMessage(result.Role, result.Content ?? string.Empty);
+            chatHistory.AddMessage(AuthorRole.Assistant, result.Message.Content ?? string.Empty);
         }
         catch (Exception ex)
         {
