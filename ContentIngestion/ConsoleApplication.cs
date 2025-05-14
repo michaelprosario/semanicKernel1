@@ -38,13 +38,13 @@ public class ConsoleApplication
             allFragments.AddRange(fragments);
         }
 
-        await _dataUploader.GenerateEmbeddingsAndUpload("content_item_fragment", allFragments);
+        await _dataUploader.GenerateEmbeddingsAndUpload("content_item_fragment2", allFragments);
          
     }
 
     public async Task Run()
     {
-        string folderPath = "C:\\dev\\AiPlayground1\\ContentIngestion\\content2";
+        string folderPath = "/workspaces/semanicKernel1/ContentIngestion/content";
     
         await ProcessFilesInDirectory(folderPath);
     }

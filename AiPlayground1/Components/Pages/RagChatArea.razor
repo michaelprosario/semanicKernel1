@@ -79,15 +79,11 @@
         string openAiApiKey = Configuration["OPENAI_API_KEY"];
         string modelId = "gpt-4o-mini";
 
-        // Create a kernel with Azure OpenAI chat completion
         var builder = Kernel.CreateBuilder();
         builder.Services.AddOpenAIChatCompletion(modelId, openAiApiKey);
 
-        // Build a text search plugin with vector store search and add to the kernel    
-        // How do you Build a text search plugin with vector store search and add to the kernel?
-        var vectorStoreRecordCollection = vectorStore.GetCollection<string, ContentItemFragment>("content_item_fragment");
-        textSearch = new VectorStoreTextSearch<ContentItemFragment>(vectorStoreRecordCollection, textEmbeddingGeneration);
-        
+        var vectorStoreRecordCollection = vectorStore.GetCollection<string, ContentItemFragment>("content_item_fragment2");
+        textSearch = new VectorStoreTextSearch<ContentItemFragment>(vectorStoreRecordCollection, textEmbeddingGeneration);        
         kernel = builder.Build();
 
         // https://learn.microsoft.com/en-us/semantic-kernel/concepts/text-search/text-search-vector-stores?pivots=programming-language-csharp

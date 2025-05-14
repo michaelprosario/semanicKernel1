@@ -49,8 +49,7 @@ namespace AppInfra
                 // Get the file name from the file path
                 string fileName = Path.GetFileName(filePath);
 
-                List<string> chunks = GetChunks(content, 1000, 200);
-
+                List<string> chunks = GetChunks(content, 10000, 200);
 
                 // loop over fragments
                 foreach (var chunk in chunks)

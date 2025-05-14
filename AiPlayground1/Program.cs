@@ -16,10 +16,6 @@ var builder = WebApplication.CreateBuilder(args);
 string textEmbeddingModel = "text-embedding-3-small";
 string openAiApiKey = builder.Configuration["OPENAI_API_KEY"];
 string postgresConnectionString = builder.Configuration["DB_CONNECTION"];
-
-Console.WriteLine($">>>>> Postgres connection string: {postgresConnectionString}");
-Console.WriteLine($">>>>> OpenAI API key: {openAiApiKey}");
-
 builder.Services.AddOpenAITextEmbeddingGeneration(textEmbeddingModel, openAiApiKey);
 builder.Services.AddPostgresVectorStore(postgresConnectionString);
 

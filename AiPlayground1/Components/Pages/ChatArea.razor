@@ -73,12 +73,6 @@
         // Create a kernel with Azure OpenAI chat completion
         var builder = Kernel.CreateBuilder();
         builder.Services.AddOpenAIChatCompletion(modelId, openAiApiKey);
-
-        // OpenAI
-        // builder.Services.AddOpenAIChatCompletion(
-        // 	modelId: OpenAIModelId,
-        // 	apiKey: OpenAIApiKey
-        // );
         kernel = builder.Build();
 
         ChatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
@@ -133,10 +127,6 @@
                 {
                     FunctionChoiceBehavior = FunctionChoiceBehavior.Auto()
                 };
-
-            // Access kernel using dependency injection
-            
-
 
             // Get response from AI
             var result = await ChatCompletionService.GetChatMessageContentAsync(
