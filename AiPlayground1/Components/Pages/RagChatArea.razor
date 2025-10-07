@@ -126,6 +126,10 @@
 
     private string GetPromptTemplate(){
         return @"
+            As an AI assistant named Chris, provide a concise and accurate answer to the user's question based on the information retrieved from the text search results below.
+            You should play the role of a leadership and business coach.
+            If the information is insufficient, respond with 'I don't know'.
+
             {{#with (SearchPlugin-GetTextSearchResults query)}}  
                 {{#each this}}  
                 Name: {{Name}}
